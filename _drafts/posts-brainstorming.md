@@ -31,6 +31,15 @@ Any developer can code for computers, a great developer can code for humans
 
 Create a few dwitters https://www.dwitter.net/
 
+1.
+
+c.width|=r=99,s=25
+for(i=0;i<18;i++)for(j=0;j<9;j++)
+x.beginPath(),
+x.fillStyle=R(r*s,j*s,j+i*s,Math.abs(S(t))),
+x.arc(r+i*r,r+j*r,r*Math.abs(S(t)),0,2*Math.PI),
+x.fill()
+
 ### Data visualization, like i learned in ebay
 
 ### e2e testing from the trenches
@@ -41,15 +50,19 @@ https://shift.newco.co/hard-and-soft-skills-in-tech-8be00216f67f
 
 ### Automation for developers toolkit
 
-### Response to state of JavaScript in 2017
-
 ### Mobile apps for JS developers
 
 A rant on cordova?
 
 https://blog.mightysignal.com/fastest-growing-sdks-of-2017-838657d3457a
 
-### 
+### How to make a good proposal for a project
+
+### What scrum is and what it isn't
+
+It is not meetings etc...
+
+### User story mapping premier
 
 
 
