@@ -1,22 +1,21 @@
-### Response to state of JavaScript in 2017
+2018 is starting and I am excited about what the JavaScript ecosystem will be for developers. I am mostly excited because it this ecosystem, the feedback loop is closing, and both library authors and developers want and expect more stablility.
 
-When I worked in the Pulsar team in ebay in 2016, life (as a front-end developer) was good. 
+#### 2016 had those new frameworks
 
-They had been working in the UI for their project for about a year, with mixed few results. The team was not happy with the progress using AngularJS. The backend team was putting forward features faster than the UI add to their product, and they hired me a JavaScript developer to join they team.
+In 2016 I worked only using AngularJS and I was proud of the fact that projects using it were very successful and got results very fast. 
 
-This was my first project in AngularJS, I was probably later than others, I took a few weeks to study the framework, got the book, and started the process of working on their UI. I proposed a rather different way of setting up their pages (using UI Router), and the development speed ramped up dramatically.
+At the same time, JS frameworks were competing to replace it. There were concerns about the scalability of AngularJS: it was hard to grow an AngularJS app to enterprise level for large teams. AngularJS was not designed with high performance in mind, which crippled its usage on mobiles. 
 
-I had learned a lot and I had got it. AngularJS was awesome, colleagues were impressed with the result and I had made my mark as Front-end developer. And then it was all different.
+React, Vue and Angular 2 were battling for the minds of developers as well as many other accompanying tools, to build their apps. In 2016, this “Cambrian explosion” of JS libraries and tools made many of the tools I used, actually, outdated.
 
-#### The new frameworks
+Particularly React and Angular 2, or simply Angular, worked with very different models. React, with its rich ecosystem of plugins was a big bazaar of ideas and approaches, while Angular, with a “batteries included“ approach became a cathedral. Each approach presented would shape any UI project very differently.
 
-While I was working on an AngularJS project I was proud of, busy, focused and uninterrupted. Out there in the world, the battle for positioning the next best JS framework was on. React, Vue and Angular 2 were battling for the minds of developers... and I had missed it all. I didn't keep up with those news.
-
-Very soon the tools and frameworks that I was using became very quickly outdated and even forgotten.
-
-React is bazaar and Angular is catedral, you can discuss for ages about which one is better, and you would get nowhwere. Bazaar's are noisier and that may have an effect on the amount of news we hear about React compared to other frameworks.
+Certainly, React still has a more vocal community, 
 
 #### The fatigue
+
+Competition is very good, JavaScript developers are more critical than most when it comes to choosing their tooling, they are more thorough than others. made developers a lot more critical of their choice 
+
 
 As I moved to another project and team, I realized how outdated I had become, how, for example, mobile development, had moved much beyond responsive designs. If faced with a choice, I had to move to another framework, and there was no clear winner.
 
@@ -43,4 +42,6 @@ More than anything, I would like to have stabillity come out of the community. O
 "The JavaScript world is richer and messier than ever."
 
 So true.
+
+
 
