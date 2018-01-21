@@ -37,6 +37,14 @@ var main = {
       });
     });
 
+    // Open external links in a new tab or page
+    var links = $( 'article a' );  
+    $.each(links, function(i){
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    })
+
     // Ensure nested navbar menus are not longer than the menu header
     var menus = $(".navlinks-container");
     if (menus.length > 0) {
