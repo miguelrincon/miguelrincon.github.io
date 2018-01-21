@@ -1,4 +1,4 @@
-2018 is starting and I am excited about what the JavaScript ecosystem will be for developers. I am mostly excited because it this ecosystem, the feedback loop is closing, and both library authors and developers want and expect more stablility.
+2018 is starting and I am excited about what the JavaScript ecosystem will be for developers. I am mostly excited because it this ecosystem, the feedback loop is closing, and both library authors and developers want and expect more stability.
 
 #### 2016 had those new frameworks
 
@@ -8,40 +8,34 @@ At the same time, JS frameworks were competing to replace it. There were concern
 
 React, Vue and Angular 2 were battling for the minds of developers as well as many other accompanying tools, to build their apps. In 2016, this “Cambrian explosion” of JS libraries and tools made many of the tools I used, actually, outdated.
 
-Particularly React and Angular 2, or simply Angular, worked with very different models. React, with its rich ecosystem of plugins was a big bazaar of ideas and approaches, while Angular, with a “batteries included“ approach became a cathedral. Each approach presented would shape any UI project very differently.
+Particularly React and Angular 2, or simply Angular, worked with very different models. React, with its rich ecosystem of plugins was a big pool of ideas and approaches, while Angular, with a “batteries included“ approach became a less diverse community of users. React played the Bazaar and Angular played the Cathedral. 
 
-Certainly, React still has a more vocal community, 
+Each approach presented would shape any UI project very differently. Certainly, React still has a more vocal and active community, but it seemed to reinvent its own wheels, while Angular failed to excite its users to innovate.
 
 #### The fatigue
 
-Competition is very good, JavaScript developers are more critical than most when it comes to choosing their tooling, they are more thorough than others. made developers a lot more critical of their choice 
+Competition is very good. The new tools we saw during most of this Cambrian era turned JavaScript into a very exciting space. At the very least, JavaScript developers should be proud because they have become more critical then their peers when it comes to choosing their tools. 
 
+However, keeping up represented a considerable amount of energy. As I moved to another project and team, I realized how “obsolete” my tools had become. If faced with a choice, I had to move to another framework, and there was no clear winner.
 
-As I moved to another project and team, I realized how outdated I had become, how, for example, mobile development, had moved much beyond responsive designs. If faced with a choice, I had to move to another framework, and there was no clear winner.
-
-Learning JavaScript became a chore for me. It started ...
-
-I was not able to articulate this feeling very clearly initially but then I found this:
+I was not able to articulate this feeling very clearly until somebody put it like this:
 
 https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f
 
-(CHECK WRITING HERE)
+Tools and frameworks switched too fast, they got rewritten, scraped and redone again without care for compatibility. New and shiny was often considered better. I became tired of keeping up.
 
-Our bosses don't care what framework we are using, that is good and that is bad. Is good because we have the freedom to choose our tools and is bad because they will see little reason to invest in the next big thing. This makes things difficult when you want to justify going for a new framework.
+Making a similar framework or state management library that proposes very little or simply a “lightweight” version of something else is not very useful innovation. But in 2017 some things did change.
 
-In any case don't rewrite becuase hen you will end up with more bugs and more delays. Do find which new project or spin off can be beetter. Rewirte only small parts of the code, learn the pholsopphy of the new tools and follow it it in the old tools. 
+### The state of JavaScript in 2017
 
-State management is something that should be in the back of any developers mind when coding their applications. The state can be stored only I an few defined places, such as the URL, that was one of the big insights of UI router, and it continues to speak to me. Later Redux seems to be the way in case you want to really go for power.
+The state of JavaScript in 2017 survey jokingly says “JavaScript is a mess” on the left side of its homepage. But I have reasons to think this will not be there in the 2018 survey.
 
-### The state of JS in 2017
+I am optimistic because the JavaScript community is maturing; I see less rewrites, more backward compatibility, more migration handbooks. I also see how developers expect more cohesion in the open-source tools they use.
 
-I am optimizitic and very interested in learning more about the new frameworks. I seem to feel a lack of philosoy in the frameworks, beyond the what is cool and what is not.
+React with a standard open source license, MIT, has won confidence of corporate users. Both NPM and Webpack are very conscious of making any breaking changes, they stay current and useful by providing long terms solutions to specific problems. State management, on the other hand, might get disrupted by GraphQL, but this change will need to onboard backend developers in many languages as well.
 
-More than anything, I would like to have stabillity come out of the community. Our bosses, businesses, don't need a new JavaScript framework, they are looking for ways to make their development better and faster, for them speed is everything. For example, Google's UI is not being changed by the new framework, the stick with Closure. The will keep it until they don't see a way to go faster with what they already have.
+Our users, customers (and bosses), should not have to care whether we are using the latest tools, as long we are able to deliver great products. This is important, because developers should be in charge of their choices; good product must also be developed with stable tools. I think JavaScript developers know this now.
 
-"The JavaScript world is richer and messier than ever."
+I also see more important innovation where it matters (such as in APIs in GraphQL) so we can actually be more productive in our work. I predict happier users (and happier bosses) in this environment of stability.
 
-So true.
-
-
-
+On the left of the homepage of JavaScript we can also read: “JavaScript is great”, I know this should probably stay on the homepage for the next survey.
