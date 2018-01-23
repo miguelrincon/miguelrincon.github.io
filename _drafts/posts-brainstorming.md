@@ -66,6 +66,15 @@ It is not meetings etc...
 
 ### User story mapping premier
 
+### Justify big hosting providers, cloud infra:
+
+We are providing high available systems with a very high level of security, on Enterprise level.
+Our hosting environment in Germany allows us to offer an environment which has no single point of failure within the datacenter – however the datacenter as such is a single point of failure. In order to overcome this limitation we decided to rely on three Public Cloud providers for future business which are Amazon Web Services, Microsoft Azure and Alibaba Cloud. All three of them are providing concepts with are avoiding datacenters being points of failures, I some cases even cross-region deployments are possible.
+
+Why are we not working with local or “so called” cloud providers.
+Let’s take https://ovhcloud.com/products/servers/dedicated-servers# as an example, the eyecatching “network availability 99.95%” is meant exactly like this: network availability. Network availability however is completely useless if the server – and this is a PHYSICAL server – breaks.
+
+We take care for SYSTEM availability (in case another party is responsible for the application) or APPLICATION availability (in case MCG is responsible for the application). At the very end this is what counts for our customers business.
 
 
 
