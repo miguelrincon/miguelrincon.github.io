@@ -5,7 +5,7 @@
 
 Hiring, handling resources and schedules, pragmatic delivery, some automation, dealing with customer, at another level...
 
-How to become a succesulf development manager.
+How to become a succesul development manager.
 
 ### Scrum ang Agile under a budget in real life mid-size projects
 
