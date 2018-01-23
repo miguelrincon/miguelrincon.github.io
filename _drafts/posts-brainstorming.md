@@ -9,6 +9,9 @@ How to become a succesulf development manager.
 
 ### Scrum ang Agile under a budget in real life mid-size projects
 
+### Solidity https://solidity.readthedocs.io/en/develop/
+
+
 ### How to keep you ops from going crazy: for JavaScript front-end developers
 
 ### CRM systems research and OroCRM, a primer
