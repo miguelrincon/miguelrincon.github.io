@@ -55,6 +55,8 @@ https://shift.newco.co/hard-and-soft-skills-in-tech-8be00216f67f
 
 ### Automation for developers toolkit
 
+### Use a single repo or monorepo for larger projects 
+
 ### Mobile apps for JS developers
 
 A rant on cordova?
