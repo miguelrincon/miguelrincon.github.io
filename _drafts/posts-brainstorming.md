@@ -32,6 +32,8 @@ Any developer can code for computers, a great developer can code for humans
 
 ### A chess minimatch algorith in TypeScript
 
+### Thesis, antithesis, synthesis applied to Web Development
+
 ### My dwitters
 
 Create a few dwitters https://www.dwitter.net/
