@@ -19,7 +19,7 @@ description: MR
 
 # List of links in the navigation bar
 navbar-links:
-  About: "about"
+  Posts: "posts"
   Find Me:
     - LinkedIn: "https://www.linkedin.com/in/miguelrincon/"
     - Github: "https://github.com/miguelrincon/"

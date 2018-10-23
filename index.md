@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About
+title: Hola, I am Miguel.
 subtitle: Why you'd want to talk to me
+use-site-title: true
 ---
 
 My name is Miguel, I am from Colombia. I work and live in Shanghai, China.
 
 ### Work stuff
 
-During my career I have been lucky to work with amazing technologies (and with amazing people). 
+During my career I have been lucky to work with amazing technologies (and with amazing people).
 
 I could be described as a person with "T-shaped" skills: about half of my career, I have been deeply involved in front-end development, and the other half in more general topics such as Agile, digital marketing, project management, automation & DevOps, application architecture, and more recently, management.
 
