@@ -29,6 +29,6 @@ Soft-skills would be harder to list. I have led teams, I have hired people, coac
 
 Sure! Ask me about... Colombia, diving, China, bowling, bad guitar playing, fasting, frugality, Improv theater, cryptocurrencies and of course, computer stuff.
 
-### Still want to talk to me?
+### Get in touch!
 
 I am not hard to find! Feel free to contact me on LinkedIn, Github or StackOverflow (not a big Facebook user)
