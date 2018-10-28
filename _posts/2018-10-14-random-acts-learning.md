@@ -25,7 +25,7 @@ The courses come with videos, auto-checking coding exercises and online command 
 
 I reviewed many options and I settled on a few long form courses that help me review and relearn old topics, as well as new ones. I didn’t necessarily choose them to look for a different career path, but to keep my curiosity for learning alive and set some goals outside of work.
 
-I didn’t go for short courses or articles, a bit opposed to my usual [breadth first learning](http://wiki.c2.com/?BreadthFirstLearning), because I think I will benefit for a deep dive at this point. I didn’t go for “free”, mainly because the paid couses offer a much higher quality and I can put some aside to [invest in myself](https://medium.com/swlh/take-the-time-to-invest-in-yourself-your-future-depends-on-it-650303a4c). One thing that I did not find much of, is courses aimed at engineers with more experience, often, they are aimed to beginners and newcomers. 
+I didn’t go for short courses or articles, a bit opposed to my usual [breadth first learning](http://wiki.c2.com/?BreadthFirstLearning), because I think I will benefit for a deep dive at this point. I didn’t go for “free”, mainly because the paid courses offer a much higher quality and I can put some aside to [invest in myself](https://medium.com/swlh/take-the-time-to-invest-in-yourself-your-future-depends-on-it-650303a4c). One thing that I did not find much of, is courses aimed at engineers with more experience, often, they are aimed to beginners and newcomers. 
 
 These are some of the courses which I have used or plan using:
 
