@@ -83,7 +83,9 @@ Let’s take https://ovhcloud.com/products/servers/dedicated-servers# as an exam
 
 We take care for SYSTEM availability (in case another party is responsible for the application) or APPLICATION availability (in case MCG is responsible for the application). At the very end this is what counts for our customers business.
 
+### Some commands i didn't know
 
-
+git log --oneline --graph --decorate --all
+git log --stat
 
 

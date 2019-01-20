@@ -53,7 +53,7 @@ author:
   #email: "youremail@domain.com"
   #facebook: yourname  # eg. daattali
   github: miguelrincon    # eg. daattali
-  #twitter: yourname   # eg. daattali
+  twitter: miguelrincon86   # eg. daattali
   #reddit: yourname    # eg. daattali
   #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: miguelrincon  # eg. daattali
@@ -73,7 +73,7 @@ footer-links-active:
   rss: false
   facebook: false
   email: false
-  twitter: false
+  twitter: true
   google-plus: false
   github: true
   reddit: false
