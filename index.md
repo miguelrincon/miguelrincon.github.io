@@ -31,4 +31,5 @@ Sure! Ask me about... Colombia, diving, China, bowling, bad guitar playing, fast
 
 ### Get in touch!
 
-I am not hard to find! Feel free to contact me on LinkedIn, Github or StackOverflow (not a big Facebook user)
+I am not hard to find! Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/miguelrincon/), [Github](https://github.com/miguelrincon/) or [StackOverflow](https://stackoverflow.com/users/777539/miguelr).
+
