@@ -1,7 +1,7 @@
 
 I proudly graduated from the **Full Stack Web Developer Nanodegree by Udacity**, so I want to display my learning experience and explain how the course was structured and how it has benefited me.
 
-[![Full Stack Web Developer Nanodegree](/img/posts/fullstack-nanodegree/certificate.png){:style="box-shadow: 0px 0px 25px grey;"}](https://confirm.udacity.com/THA2RQEN)
+[![Full Stack Web Developer Nanodegree](/img/posts/fullstack-nanodegree/certificate-full-stack.png){:style="box-shadow: 0px 0px 25px grey;"}](https://confirm.udacity.com/THA2RQEN)
 {:class="text-center"}
 
 The course includes online lessons, access to the Udacity students and mentors forums and chats. The minimum requirement to graduate is to finish 3 projects which cover different aspects of Full-stack development.
