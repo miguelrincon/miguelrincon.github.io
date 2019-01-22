@@ -64,11 +64,37 @@ Once an "Schema" is agreed upon it can be used to generate programmatically clie
 
 It uses two main kinds of query, which are use to fulfill get role of the HTTP verbs called: via ExecuteQuery (replacing GET) and ExecuteMutation (replacing POST, PUT, DELETE).
 
-GraphQL helps solving "silly" discussions around hos to map relationships between objects, which in REST is never obvious choice (see n+1 problem). This helps building more straight forward front-end code which decides which entity and fields to show and in relation to which other entities.
+GraphQL helps solving "silly" discussions around hos to map relationships between objects, which in REST is never obvious choice (see n+1 problem). This helps building more straight forward front-end code which decides which entity and fields to show and in relation to which other entities. As the our applications grow more complex, the number relationships between data will grow, and this is.
 
-Honorable Mention: Storybook
+GraphQL also promises allows for a gradual "evolution" of APIs.
 
-Script and manage stateless components to make them reusable.
-Compatible with all major frameworks.
+*Why mention it here?* Using or not GraphQL has an impact in the way we architect our front-end (and back-end). It challenges some assumptions about how "state" is maintained in the front-end applications.
+
+### Honorable Mention: Storybook
+
+Storybook is a way to do separate component testing and development outside of the application.
+
+While I haven't used storybook in a project, I think it can be a powerful tool when separating concerns of "components" and "modules" of our front-end end application.
+
+It allows to test and use "stateless" components independently from each other and from the larger application. Any business user is able to check the look and feel of the app pieces even before their are integrated and built.
+
+*Why mention it here?* Storybook is compatible with the major frameworks discussed here. Regardless of which framework is chosen, making stateless means making them reusable. This has an impact on how teams might approach building their UIs and how projects are organized, specially on complex front-end projects.
+
+## JavaScript in 2017
+
+The 2017 state of JS gave me insights into the market and usage trends for the frameworks we are discussing.
+
+While I don't normally use the number of stars and questions on StackOverflow as an indicator of which tools I should use it does have major impact in the corporate world: **hiring**.
+
+When building teams of developers in a fast paced environment, such as China (with a high turn-over rate and short deadlines), skills of each individual contributor should align to the needs of the project at hand as fast as possible, and popular frameworks allow shorter training periods hiring.
+
+Below a figure of the usage and intention of usage of different frameworks globally:
+
+![JS Framework Popularity contest](/img/posts/front-end-frameworks/popularity-contest.png)
+
+With VueJS and Angular 2 growing, and React getting stablished we see a similar trend in StackOverflow:
+
+![JS Framework Popularity contest](/img/posts/front-end-frameworks/stackoverflow-question-tags.png)
 
 ...
+
