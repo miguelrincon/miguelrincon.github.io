@@ -15,6 +15,10 @@ With drafts visible:
 ```
 $ bundle exec jekyll serve --drafts
 ```
+Build it:
+```
+$ bundle exec jekyll build
+```
 
 Update fonts files
 ```

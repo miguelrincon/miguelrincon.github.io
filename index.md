@@ -1,29 +1,30 @@
 ---
 layout: page
 title: Hola, I am Miguel.
-subtitle: Why you'd want to talk to me
 use-site-title: true
 ---
 
-My name is Miguel, I am from Colombia. I work and live in Shanghai, China.
+Full stack developer and software team leader in Shanghai, China.
 
-### Work stuff
+### My work
 
-During my career I have been lucky to work with amazing technologies (and with amazing people).
+During my career, I have been lucky to work with amazing technologies (and with amazing people).
 
-I could be described as a person with "T-shaped" skills: about half of my career, I have been deeply involved in front-end development, and the other half in more general topics such as Agile, digital marketing, project management, automation & DevOps, application architecture, and more recently, management.
+I could be described as a person with "T-shaped" skills: about half of my career, I have been deeply involved in [Front-End](/2018-02-15-frontend-frameworks-comparison/) development (see an example: [Pulsar UI](/pages/pulsar-reporting-ui/)), and the other half in topics such as Agile, digital marketing, project management, automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management.
 
-I started coding and suffering web development on IE6 and now I am here.
+I started coding on front-end web development and I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
 
-Companies and bosses seem to like me, I have been rehired twice (in 2 different companies), so my resume reads like a poem, it rhymes.
+Companies love me, I have been rehired twice (in two different companies), so my resume... rhymes.
 
-### Still asking about work?
+### Specifics about tech?
 
-Some hard-skills, in somewhat particular order:
+Listing in somewhat particular order:
 
-JavaScript, AngularJS, HMTL, Git, SASS & SCCS, Jasmine, Jenkins, Gitlab, SonarQube,  Scrum, Agile, Code Quality, Linux, Testing Coverage, Jasmine, Protractor, SalesForce, Continuous Integration, Continuous Delivery, PHP, Drupal, Product Design.
+JavaScript, AngularJS, NodeJS, Python, Scrum, Agile, Git, SASS & SCCS, Jasmine, Jenkins, Gitlab, SonarQube,  Code Quality, Linux, Testing Automation, Jasmine, Protractor, SalesForce, Continuous Integration, Continuous Delivery, PHP, Drupal, Product Design.
 
-Soft-skills would be harder to list. I have led teams, I have hired people, coached and mentored them, I have worked with people from many countries, in person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization related topics.
+### More than tech
+
+I have led teams, I have hired people, coached and mentored them, I have worked with people from many countries, in person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization related topics.
 
 ### Let's talk about something else...
 
