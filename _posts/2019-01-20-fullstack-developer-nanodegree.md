@@ -1,3 +1,7 @@
+---
+layout: post
+share-img: "/img/posts/fullstack-nanodegree/certificate-full-stack.png"
+---
 
 I proudly graduated from the **Full Stack Web Developer Nanodegree by Udacity**, so I want to display my learning experience and explain how the course was structured and how it has benefited me.
 

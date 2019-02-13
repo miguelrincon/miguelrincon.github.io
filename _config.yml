@@ -13,7 +13,7 @@ baseurl: ""
 title: miguelrincon
 
 # Short description of your site
-description: MR
+description: Miguel Rincon | Software Engineer
 
 # --- Navigation bar options --- #
 
@@ -49,7 +49,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: MR
+  name: Miguel Rincon
   #email: "youremail@domain.com"
   #facebook: yourname  # eg. daattali
   github: miguelrincon    # eg. daattali

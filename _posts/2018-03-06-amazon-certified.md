@@ -2,6 +2,7 @@
 layout: post
 title: AWS Certified!
 subtitle: AWS Certified Solutions Architect
+share-img: "/img/posts/aws-certified-architect-miguel.png"
 ---
 
 Thanks to the great courses by ["A Cloud Guru"](https://acloud.guru/) (and a whole Spring Festival holiday of study I got it!):
