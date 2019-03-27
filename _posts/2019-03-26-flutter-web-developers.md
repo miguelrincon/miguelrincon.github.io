@@ -86,4 +86,5 @@ My next steps will be to look at how themes can help me style apps, and how to u
 - [Udemy course "Dart and Flutter: The Complete Developer's Guide"](https://www.udemy.com/dart-and-flutter-the-complete-developers-guide/)
 - [What’s Revolutionary about Flutter
  by Wm Leler](https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514)
-- [https://skia.org/](https://skia.org/)
+- [Skia Graphics Library](https://skia.org/)
+- [Hummingbird: experimental rendering of Flutter for the Web](https://medium.com/flutter-io/hummingbird-building-flutter-for-the-web-e687c2a023a8)
