@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Flutter for Web Developers 
-subtitle: Concepts for WebApp devs to undertand Flutter
+subtitle: Concepts for WebApp devs to understand Flutter
 share-img: "/img/posts/flutter-web-developers/home-demo-app.png"
 ---
-I have spent the last few months learning and working with Flutter, the framework to create mobile apps. Coming from a "for the browser" web development background, I have to say I am very impressed with the framework and would like to see it in action in a large project.
+I have spent the last few months learning and working with Flutter, the framework to create mobile apps. I have to say I am very impressed with the framework and would like to see it in action in a large project.
 
-Flutter 1.2 version came out in February and I wanted to write down my thoughs on why I think Flutter will change the approach to building mobile apps, and very possibly Web Apps in the near future.
+Coming from a "for the browser" web development background, I found a bit confusing to initially understand what the framework was all about, so I try to explain its differences from regular web development.
 
 <img src="/img/posts/flutter-web-developers/home-demo-app.png" style="max-width: 300px;">
 {:class="text-center"}
@@ -16,7 +16,7 @@ Flutter 1.2 version came out in February and I wanted to write down my thoughs o
 
 ### Flutter renders everything
 
-Flutter makes use of [Skia](https://skia.org/dev/flutter) to render each element of the application, there is no rendering of components done by the operating system. This means that *everything* that is presented in the screen *is* a Flutter Widget.
+Flutter makes use of [Skia](https://skia.org/dev/flutter) to render each element of the application on a canvas, there is no rendering of components done by the operating system or a WebView. This means that *everything* that is presented in the screen *is* a Flutter Widget.
 
 One downside is that applications only "look" native. The Material and Cupertino widget libraries provided by Flutter must be kept up to date for Flutter to continue to appear like the correct version of an app in newer versions of OS.
 
@@ -30,7 +30,7 @@ The presentation and business logic get mixed.
 
 It feels like having inline CSS (`widget properties`) in the markup (`widgets`) of the application, which is something that still goes against my instincts. I still find it tedious scroll through the documentation of a widget in order to find the right way to get a particular look and feel. 
 
-Styles don't "cascade". I consider this a problem for big applications, as the risk of creating a spagetti application is increases. However, a good knowledge of OOP will be needed, as styles can be *inherited* and *composed* by the widget system using Dart's `superclasses` and `mixins`.
+Styles don't "cascade". I consider this a problem for big applications, as the risk of creating a spaghetti application is increases. However, a good knowledge of OOP will be needed, as styles can be *inherited* and *composed* by the widget system using Dart's `superclasses` and `mixins`.
 
 Having said this, Wm Leler [explains convincingly]( https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514) why the layout was *turned on its head* and what this means for applications (TL;DR performance).
 
@@ -68,8 +68,6 @@ As each Widget is implemented as a `class`, unit testing widgets is very natural
 
 Added bonus! It has a great [support by VS Code]( https://github.com/Dart-Code/Dart-Code)
 
-Find [here a list of language features](https://www.dartlang.org/guides/language/language-tour).
-
 ### Tips & Bottom-line
 
 Flutter made me excited about mobile development once again.
@@ -84,6 +82,8 @@ My next steps will be to look at how themes can help me style apps, and how to u
 
 #### Resources
 
-- [https://www.udemy.com/dart-and-flutter-the-complete-developers-guide/](https://www.udemy.com/dart-and-flutter-the-complete-developers-guide/)
-- [https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514](https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514)
+- [Dart's official language tour](https://www.dartlang.org/guides/language/language-tour)
+- [Udemy course "Dart and Flutter: The Complete Developer's Guide"](https://www.udemy.com/dart-and-flutter-the-complete-developers-guide/)
+- [What’s Revolutionary about Flutter
+ by Wm Leler](https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514)
 - [https://skia.org/](https://skia.org/)
