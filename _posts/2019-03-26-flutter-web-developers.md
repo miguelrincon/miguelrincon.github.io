@@ -2,7 +2,7 @@
 layout: post
 title: Flutter for Web Developers 
 subtitle: Concepts for WebApp devs to understand Flutter
-share-img: "/img/posts/flutter-web-developers/home-demo-app.png"
+share-img: "/img/posts/flutter-web-developers/flutter-logo.jpg"
 ---
 I have spent the last few months learning and working with Flutter, the framework to create mobile apps. I have to say I am very impressed with the framework and would like to see it in action in a large project.
 
