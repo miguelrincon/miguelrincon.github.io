@@ -5,36 +5,36 @@ subtitle: Manually creating project documentation? Try this recipe.
 share-img: "/img/posts/pandoc/front-end-article-transform.png"
 ---
 
-Any software project worth building requires **good documentation**. Involve the whole team should be involved in the effort!
+Any software project worth building requires **good documentation**. How do you enable your team to maintain it?
 <!--more-->
 
 ![Go from this to this](/img/posts/pandoc/front-end-article-transform.png)
-Go from `this` to *this*
+Go from `this.md` to... ***this.pdf***.
 {:class="text-center"}
 
-## CD as in "Continuous Documentation"
+## CD can also be "Continuous Documentation"
 
-Communicating and documenting different aspects of the project should be done by the whole team (not just a project manager or developers!). Information should get documented during the project execution, from its goals, to the way it was built, and all the way to its results.
+Communicating and documenting different aspects of a software project should be done by the whole team (not just a project manager or developers!). Documentation should evolve during project execution, so the project's goals, architecture and final results get described.
 
-Documentation should be a continuous process. Good documentation cannot be an afterthought, and much a like quality, it should be [built-in](https://www.scaledagileframework.com/built-in-quality/) the process of software creation.
+Good documentation, like [quality](https://www.scaledagileframework.com/built-in-quality/), should not be an afterthought, it should be built-in the process of software creation.
 
-As not all projects are done in collaboration with tech savvy clients, so we cannot ask them to check out our project code and read thorough it to understand it. In addition, as we do not always want to have our project documentation public, so creating a static documentation website is not always practical.
+As not all projects have tech savvy clients, we cannot ask them to check out our project's code and read thorough it to understand it. In addition, we do not always want to have our project documentation public, so creating a documentation website is not always practical.
 
-If we want to follow Continuous Delivery principles, our documentation should be *always ready* for delivery.
+If we want to follow [Continuous Delivery](https://continuousdelivery.com/) principles, our documentation should be always ***potentially shippable*** as well.
 
 ## Requirements for documentation
 
-I wanted to provide our customers with up to date documentation in a format they could consume and archive (and e-mail to their bosses), so our requirements our Continuous Documentation efforts are:
+I wanted to provide our customers with up to date documentation in a format they could consume and archive (and e-mail to their bosses), so our requirements our Continuous Documentation efforts require that:
 
 - Docs should kept up to date by **any team member** (not only developers) easily.
 - They should be **versioned** along with our code, so we can maintain a single source of truth about the project.
 - Documents should be formatted as in **Word or PDF**, so that managers and other members of the customer’s team could consume and share it easily.
-- Updates to the documentation should require **minimum manual work** from our part, to maintain our documents.
+- Updates to the documentation should require **minimum manual work** from our part to maintain our documents.
 - We should **always be ready** to provide our document to anyone who asks for it.
 
 ## Solution using Pandoc
 
-I designed a solution, which can eventually be automated in a delivery pipeline. So our team:
+I designed a solution, which can eventually be automated in a delivery pipeline. Our team:
 
 - Created **markdown files** (`.md`) which held the documentation introduction for each part of the project. (If you haven’t used *markdown*, I strongly recommend you try it to write documents. In fact, the page you are reading now has been written in markdown. )
 - Created a template for documentation, it can contain the header and footer of the company or customer, as well as text and heading styles. Microsoft Word provides a template functionality by creating **`.dot` files**, more [information here](https://support.office.com/en-gb/article/save-a-word-document-as-a-template-cb17846d-ecec-49d4-82ea-a6f5e3e8b9ae).
@@ -44,7 +44,7 @@ I designed a solution, which can eventually be automated in a delivery pipeline.
 
 I used [Pandoc](https://pandoc.org/), an extremely versatile open-source command to create a manage documents in different formats from a CLI. It is compatible with Linux and Windows, so it was possible for different members of the team to see the final document as they updated documentation.
 
-![Continuous Documentation](/img/posts/pandoc/process.png)
+![Continuous Documentation Steps](/img/posts/pandoc/process.png)
 
 To automate the process, we added it to our CI pipeline, so we installed Pandoc in our runner. For example, in your `gitlab-ci.yml` you can have:
 ```
@@ -68,9 +68,10 @@ These two pages show how images are supported:
 
 ![Generated Word Document Images](/img/posts/pandoc/front-end-article-images.png)
 
-Some tips:
+### Some tips:
+
 - Keep the paths to our images relative inside your git project.
-- Code samples such as (```) do not automatically style as in markdown.
+- Code samples such as (```) do not automatically style as monospace.
 - Images are not center by default, so this is a manual step.
 
-*Disclaimer: The MCON logo is trademarks or registered trademarks of MCON.*
+<small>*Disclaimer: The MCON logo is trademarks or registered trademarks of MCON.*</small>
