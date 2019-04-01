@@ -2,10 +2,15 @@
 layout: post
 title: Implement "Continuous Documentation"
 subtitle: Manually creating project documentation? Try this recipe.
-share-img: "/img/posts/pandoc/front-end-article.png"
+share-img: "/img/posts/pandoc/front-end-article-transform.png"
 ---
 
 Any software project worth building requires **good documentation**. Involve the whole team should be involved in the effort!
+<!--more-->
+
+![Go from this to this](/img/posts/pandoc/front-end-article-transform.png)
+Go from `this` to *this*
+{:class="text-center"}
 
 ## CD as in "Continuous Documentation"
 
@@ -67,3 +72,5 @@ Some tips:
 - Keep the paths to our images relative inside your git project.
 - Code samples such as (```) do not automatically style as in markdown.
 - Images are not center by default, so this is a manual step.
+
+*Disclaimer: The MCON logo is trademarks or registered trademarks of MCON.*
