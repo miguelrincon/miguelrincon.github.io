@@ -10,7 +10,9 @@ Full stack developer and software team leader in Shanghai, China.
 
 During my career, I have been lucky to work with amazing technologies, and with amazing people.
 
-My work as a software engineer as has focused on front-end web development and I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well. I have been deeply involved in [Front-End](/2018-02-15-frontend-frameworks-comparison/) development (see an example: [Pulsar UI](/pages/pulsar-reporting-ui/)) and Agile Project management, Digital Marketing, Automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management. I champion Continuous Delivery (CI/CD) in all projects in which I take part.
+My work as a software engineer as has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development (an example: [Pulsar UI](/pages/pulsar-reporting-ui/)) *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
+
+I have worked in Agile Project management, Digital Marketing, Automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management. I champion Continuous Delivery (CI/CD) in all projects in which I take part.
 
 ### Specifics about tech?
 
