@@ -3,6 +3,7 @@ layout: post
 title: Implement "Continuous Documentation"
 subtitle: Manually creating project documentation? Try this recipe.
 share-img: "/img/posts/pandoc/front-end-article-transform.png"
+excerpt_separator: <!--more-->
 ---
 
 Any software project worth building requires **good documentation**. How do you enable your team to maintain it?

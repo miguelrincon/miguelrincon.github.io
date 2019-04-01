@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Not so random acts of learning
-subtitle: Keeping my inner geek alive
+title:  Education for a software developer
+subtitle: A.k.a keeping my inner geek alive
 excerpt_separator: <!--more-->
 ---
 
