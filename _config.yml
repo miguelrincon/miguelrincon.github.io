@@ -10,10 +10,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: miguelrincon
+title: "miguelrincon"
 
 # Short description of your site
-description: Miguel Rincon | Software Engineer
+description: "Software Engineer | Full-stack Developer in Shanghai, China"
 
 # --- Navigation bar options --- #
 
