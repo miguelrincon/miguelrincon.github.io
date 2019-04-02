@@ -6,13 +6,17 @@ share-img: "/img/pages/reporting-ui-home.png"
 Pulsar Reporting UI
 ===================
 
-The **Pulsar Reporting** ([see the Github repository for setup](https://github.com/miguelrincon/pulsar-reporting-ui)) UI is a complete solution to visualize reports that renders visualizations of your events and traffic in real-time.
+Pulsar is an open-source solution for your team to do analysis of real-time events streams, it can be used for web analytics, monitoring of events on infrastructure and similar applications. 
+
+The **Pulsar Reporting UI** is a reporting solution that allows your team to visualize your events and traffic in real-time. It allows both developers and final users to build customized dashboards and visualizations.
+
+See the [Github repository for setup](https://github.com/miguelrincon/pulsar-reporting-ui).
 
 ### See: Pulsar Reporting announcement in the [ebay Tech Blog](https://www.ebayinc.com/stories/blogs/tech/announcing-pulsar-reporting-near-real-time-metrics-reporting-framework/)!
 
-Pulsar Reporting UI is built on AngularJS, allows developers to create Pulsar visualizations in different ways.
+Pulsar Reporting UI is built on AngularJS. Users can create visualizations using a point-and-click interfaces and developers to create visualizations by using lower-level Pulsar components.
 
-Full documentation for development is in the [Pulsar Reporting JS Docs](https://miguelrincon.github.io/pulsar-reporting-ui/#/api)
+Full documentation for development is at [Pulsar Reporting JS Docs](https://miguelrincon.github.io/pulsar-reporting-ui/#/api).
 
 ## Features & Screenshots
 
