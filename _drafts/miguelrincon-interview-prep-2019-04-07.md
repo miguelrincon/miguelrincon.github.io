@@ -47,5 +47,37 @@ This was exciting because I was able to help the team with their biggest bottlen
 
 Unfortunately eBay moved on for that project, but it is still around in the original [Github repository](https://github.com/pulsarIO/pulsar-reporting-ui) and published on my site [as a fork](https://miguelrincon.github.io/pages/pulsar-reporting-ui/).
 
+# Interview Preparation
 
+Gitlab values: CREDIT
 
+Collaboration, Results, Efficiency, Diversity, Iteration, Transparency
+
+Diversity built-in
+
+Results - OKR
+
+SMART answers
+
+Moving from team manager to IC/member -> leadership can come naturally from skills i obtain 
+
+AIESEC
+
+### Questions to Interviewer
+
+- Teams setup
+- Mobility to other countries?
+- Separation between front-end and back-end, different orgs? mobility between teams?
+- Conversation development?
+- That said, we would love to work on a 2-week release cycle, but that should be another conversation.
+- Travel requirements or needs?
+- How to collect feedback from users?
+- Time enoguh to join Gitlab contribute https://about.gitlab.com/company/culture/contribute/ ?
+
+### TODO
+
+- Article about Team leader -> IC
+- CI/CD Matrix on my website
+- https://about.gitlab.com/company/strategy
+- https://about.gitlab.com/company/culture/gitlab-101/
+- https://about.gitlab.com/handbook/leadership/ Our summits link is broken... send an issue or MR.
