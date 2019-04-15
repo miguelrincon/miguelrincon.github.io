@@ -57,33 +57,39 @@ Unfortunately eBay moved on for that project, but it is still around in the orig
 
 ### Why are you looking for a new position?
 
-- I got married recently...?
-- During 2017 there was a big explosion of tools in the front-end market so joined my current job as front-end architect, to try to help the team and sort out which tools we should use/learn/drop, this was great.
-- I am constantly learning, I used to learn using books and now I am using online courses to stay updated.
-- Unfortunately there have been some issues at the management level (GoT) which I would rather not disclose, some key persons have left, and the expectations is that I feel the gap. 
-- I have learnt a lot in this time, but I think the career that makes sense for me is more of a technical role.
+Several reasons:
+1. My role is not making so much sense anymore, and my company has changed it needs. When I joined in 2017 there was an explosion of tools front-end market so joined my current job as front-end architect, to help team use/learn/drop tools. This is not the case anymore, and most the company, and the community is settles in terms of tools needed.
+2. The way for me to move move forward in the company is to move to a full-time manager position, I understand this is not my career path at the moment and I want to keep growing my skills.
+3. In order for me to keep growing and need to join a bigger team, where I am not just a mentor, but also a student of others. I am constantly learning, I am using books and online courses to stay updated, but this can only go so far.
 
 ### Why did you apply with GitLab?
 
 - I have known Gitlab's product since I joined my current company about 2 years ago, I got into a CI/CD implementation right after I started and Gitlab has always helped me.
 - Since then, I spent a lot of time reading about the companies values and vision and I aligned to with them. And even used many of the ideas on how to setup my own projects at the company.
 - I completely connect with a few of the values: I am very comfortable in diverse environments, my friends and colleagues come from all over the world.
-- As regards to remote work, I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me..
+- As regards to remote work, I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me. 
+- I got married recently and so I want to have more mobility to travel with my partner.
 - The most fun I ever had was working on an open source project during my time a eBay and I would like to do it again.
 
 ### What are you looking for in your next position?
 
 - I want participate in a large project that has a big impact on people, and have fun while doing so.
+- I want to have the experience of managing myself at evey step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others. 
 - I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
+- I think there is a critical window of opportunity for me to continue on a technical path... It is time for me to go back in the technical field... as I want to continue on this track before skills begin rotting.
 
 ### Why did you join and leave your last three positions?
 
-- I think my big motivator has always been making an impact for either my team.
-- When eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited.
+- I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breath over depth matches my interests.
+- I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited.
 
 ### What is your experience with X? (for each of the skills listed in the position description)
 
-TODO
+So, my main experience in front-end frameworks has been with AngularJS, this is how I built Pulsar UI, the project I built with eBay. Previously I had worked with Backbone JS, which was the way got into building using Web Frameworks.
+
+Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use VueJS becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
+
+More recently, I lead the development of WeChart mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages. The difference with Vue is mostly in that they are opinionated on the routing method.
 
 ### STAR questions and simple technical or skills-related questions
 
@@ -111,45 +117,43 @@ TODO
 
 #### STAR questions
 
-1. **Tell me about a time you had a conflict at work.** STAR Model Answer: There was a disagreement I had with a coworker which originated from a miscommunication. To keep our work environment professional and positive, we had to discuss it and make amends. I sat down with them one day during lunch, paid for their meal, and took initiative by apologizing for my part in the whole mess. Now, we work together well and are often praised for our impressive teamwork.
+Situation, Task, Action, and Result (STAR)
 
-2. **Can you describe a stressful situation and how you handled it?** STAR Model Answer: At my last restaurant, I once found out mere hours in advance about a health inspection. As the head chef, I was in charge of making sure everything was in order in the kitchen and the BOH before the inspector arrived. I quickly called in employees from the last shift to help out, leaving the others available to prep for that evening’s dinner. As a result, we were able to ace the inspection, less costly in the long run compared to giving employees a few hours of overtime.
+Projects to mention:
+- Pulsar
+- Fairgarage
+- TimeValee pitch
+- Porsche Club Mini Program
+- PEC Online booking
+- MCON website
+- VWFS Online
+- Non-work: HSK
 
-3. **Can you detail a mistake you made and how you reacted to it?** STAR Model Answer: One time, I switched the packing labels of two packages I sent to customers. I had to correct the problem without angering the clients. I called them both up and provided them with shipping labels with the correct addresses while offering each of them a small gift certificate to use on a future order. The customers not only helped me fix my mistake, but they were both satisfied and will return and shop again.
+1. **Tell me about a time you had a conflict at work.** There was a disagreement with one of my designer colleagues, we had friction because her designs were not web friendly, she was designing the websites with a fixed frame and couldn't understand responsive methods. I had to undwerstand that design can be quite personal. My solution was to spend time with her and explain to her the technicalities behind responsive design, I also worked with her to create a kitchen sink or framework for the project we were working on, so the layout design was mostly left on the hands of the development team with her guidance and feedback.
 
-4. **Tell me about a time when you performed well under enormous pressure.** STAR Model Answer: At my last job, my coworker needed to miss work for some time, and their project was left unfinished and without a manager. My supervisor instructed me to take on the project, and with no leniency on the deadline, I had days to complete a project that originally should have taken several weeks. I requested and was granted reduced weekly goals, giving me more time to finish the special project. As far as my weekly goals, I was able to delegate them out to teammates. With my reduced goals, I dedicated more time to the special project. This allowed me to finish it on time and with complete accuracy. My supervisor appreciated my attitude and drive, and I was given several more projects after that, along with an eventual promotion and pay raise.
+2. **Can you describe a stressful situation and how you handled it?** For PEC we work in an online booking system, recently some of the bookings dissapeared and we could not find out why. Client keep calling to ask as their operations were stopped during the days that appeared booked. Initially I wanted to find the root cause, but after a few hours I decided to patch the system to increase the booking amounts, so the operations could continue. I think is sometimes important to take 5 minutes and stop to try and think clearly... and solve the problem next morning.
 
-5. **Have you ever dealt with a sticky situation involving another department?** STAR Model Answer: Previously, my department had a misunderstanding with members of our accounting department. We needed to correct the issue to keep office morale from plummeting. I gave my team a small budget and instructed my team to each pick out a thoughtful present for their counterpart in accounting. Later that night and from then onward, we became friends and strong colleagues.
+3. **Can you detail a mistake you made and how you reacted to it?** I think one of my mistakes had been give a raise to one of my colleagues asd a motiviation to perform. She was not doing great, but when she asked for a raise I though it was an opportunity to motivate her. That was not the case, and her performance didn't change. Later when she was leaving, I learned that she has personal issues and now I understand that I should have addressed the root cause instead of trying to motivate her with the wrong methods.
 
-6. **Give me an example of a goal you met.** STAR Model Answer: Last October, I had to write six articles for the month to keep our blog fresh. I created an action plan for myself, with deadlines as to when each article should be published. I finished that month with six articles written and ahead of schedule.
+4. **Tell me about a time when you performed well under enormous pressure.** Well recently our Mini Program had to be released and my front-end collague had to leave for home. I had to finish the project by myself, and finish a lot the unfinished tasks without him. I was fortunately able to deliver on time, in part thanks to him agreeing to explain a few things durign his time off.  
 
-7. **Give me an example of a goal you couldn't meet and how you handled it.** STAR Model Answer: Last November, I had to write six articles for the month to keep our blog fresh. Throughout the month, I was tasked with small responsibilities that took time away from my goal. I was unable to complete my six posts, but I talked to my supervisor and detailed all my extra work completed, and I was praised for my accomplishments, as well.
+5. **Have you ever dealt with a sticky situation involving another department?** Sure, I have to work with the operations team in my company. I think  
+6. STAR Model Answer: Previously, my department had a misunderstanding with members of our accounting department. We needed to correct the issue to keep office morale from plummeting. I gave my team a small budget and instructed my team to each pick out a thoughtful present for their counterpart in accounting. Later that night and from then onward, we became friends and strong colleagues.
 
-8. **Tell me about a time when you had to placate an unsatisfied client.** STAR Model Answer: As a flight attendant, I had a passenger who seemed to hate his seat next to a wailing infant. I decided to see what I could do to ease his suffering before he complained. With unoccupied seats in business class, I upgraded that passenger, and he was thrilled at his luck while the mother and infant were given more room to spread out.
+7. **Give me an example of a goal you met.** STAR Model Answer: I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
 
-9. **Have you ever had a disagreement with an immediate supervisor?** STAR Model Answer: I once disagreed with my supervisor on the wording of her instructions. As her employee, I had to balance my respect for her with my English lessons from school. Instead of shoving a dictionary in her face, I apologized for the confusion and told her that I saw where we became confused. She respected me much more after that, and she even gave her recommendation for my promotion.
+8. **Give me an example of a goal you couldn't meet and how you handled it.** STAR Model Answer: I hired a TPM as colleague and had really high expectations from him. However, no matter how hard I tried I was not able to sell him on my vision the team: I had a lot of ideas about automation and dockerizing a lot of our systems. Unfortunately I had too many team frictions and disagreements with him. I discussed with my manager and we decided he was not a fit for the role, unfrotunately I had to ask him to leave.
 
-10. **Describe a time when you went above and beyond.** STAR Model Answer: Earlier this year, there was a day where I had to come in to the garden center on a Saturday and take care of some tasks on which we were behind. I came in, listening to my headphones the entire time, and ended up finishing everything before lunch. As I was in such a productive mood, I stayed the full day, and eventually completed tasks that were meant for the following few days. Since that day, the garden center has never fallen behind again.
+9.  **Tell me about a time when you had to placate an unsatisfied client.** STAR Model Answer: I happened to end building the internal website of our company, and the feedback from one of the partners was that the website was literally "shit". Initially I wanted him to submit bug reports... but this was not working I decided I would have a call with him to try to figure out what was wrong, and in the end, although the issues seemed major to him, they were easy to fix. The key was to do the meeting with him to sort out the issues, actually I was writing them during the meeting so he understood our process.
 
-1. **Tell me about how you worked effectively under pressure.** I had been working on a key project that was scheduled for delivery to the client in 60 days. My supervisor came to me and said that we needed to speed it up and be ready in 45 days, while keeping our other projects on time. I made it into a challenge for my staff, and we effectively added just a few hours to each of our schedules and got the job done in 42 days by sharing the workload. Of course, I had a great group of people to work with, but I think that my effective allocation of tasks was a major component that contributed to the success of the project.
+10. **Have you ever had a disagreement with an immediate supervisor?** / **Describe a decision you made that wasn't popular and how you handled implementing it.**  When I started in eBay I had a difficult time adjusting to the new team. I saw the state of the UI and I knew I could produce something better... But this would mean, basically a re-write of the project, my architect of the team refused to listen to this proposal. So I decided, show and don't tell: I asked for permission to work on a PoC and spent a few days on it. He was so impressed with the concepts that he allowed me to rewrite the project gradually and we finished extremely fast with a more readable and extensible code.
 
-2. **How do you handle a challenge? Give an example.** One time, my supervisor needed to leave town unexpectedly, and we were in the middle of complicated negotiations with a new sponsor. I was tasked with putting together a PowerPoint presentation just from the notes he had left, and some briefing from his manager. My presentation turned out successfully - we got the sponsorship, and the management team recommended me for an award. 
+11. **Give an example of how you set goals.** Non-work example: Many of my goals are learning goals. I decided I wanted to improve my Chinese level, so instead of setting a goal like, "learn more", I signed up to the official exam. I studied a lot, during lunch, and in the mornings... and I passed! I had to set measurable example.
 
-3. **Have you ever made a mistake? How did you handle it?** One time I misquoted the fees for a particular type of membership to the club where I worked. I explained my mistake to my supervisor, who appreciated my coming to him, and my honesty. He told me to offer to waive the application fee for the new member. The member joined the club despite my mistake, my supervisor was understanding, and although I felt bad that I had made a mistake, I learned to pay close attention to the details so as to be sure to give accurate information in the future.
+12. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
 
-4. **Give an example of how you set goals.** Within a few weeks of beginning my first job as a sales associate in a department store, I knew that I wanted to be in the fashion industry. I decided that I would work my way up to department manager, and at that point I would have enough money saved to be able to attend design school full-time. I did just that, and I even landed my first job through an internship I completed the summer before graduation.
+13. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
 
-5. **Give an example of a goal you reached and tell me how you achieved it.** When I started working for XYZ Company, I wanted to achieve the Employee of the Month title. It was a motivational challenge, and not all the employees took it that seriously, but I really wanted that parking spot, and my picture on the wall. I went out of my way to be helpful to my colleagues, supervisors, and customers - which I would have done anyway. I liked the job and the people I worked with. The third month I was there, I got the honor. It was good to achieve my goal, and I actually ended up moving into a managerial position there pretty quickly, I think because of my positive attitude and perseverance.
-
-6. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
-
-7. **Give an example of how you worked on a team.** During my last semester in college, I worked as part of a research team in the History department. The professor leading the project was writing a book on the development of language in Europe in the Middle Ages. We were each assigned different sectors to focus on, and I suggested that we meet independently before our weekly meeting with the professor to discuss our progress, and help each other out if we were having any difficulties. The professor really appreciated the way we worked together, and it helped to streamline his research as well. He was ready to start on his final copy months ahead of schedule because of the work we helped him with.
-
-8. **What do you do if you disagree with someone at work?** A few years ago, I had a supervisor who wanted me to find ways to outsource most of the work we were doing in my department. I felt that my department was one where having the staff on premises had a huge impact on our effectiveness and ability to relate to our clients. I presented a strong case to her, and she came up with a compromise plan.
-
-9. **Share an example of how you were able to motivate employees or co-workers.** I was in a situation once where the management of our department was taken over by employees with experience in a totally different industry, in an effort to maximize profits over service. Many of my co-workers were resistant to the sweeping changes that were being made, but I immediately recognized some of the benefits, and was able to motivate my colleagues to give the new process a chance to succeed. 
-
-10. **Have you handled a difficult situation? How?** When I worked at ABC Global, it came to my attention that one of my employees had become addicted to painkillers prescribed after she had surgery. Her performance was being negatively impacted, and she needed to get some help. I spoke with her privately, and I helped her to arrange a weekend treatment program that was covered by her insurance. Fortunately, she was able to get her life back on track, and she received a promotion about six months later.
 
 ### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
 
@@ -157,12 +161,12 @@ TODO
 
 ### Do you require visa sponsorship or a work permit to work for GitLab?
 
-- I must probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
+- I most probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
 - It depends on my setup, and I can do the research needed for this.
 
 ### What is the notice period you would need if you were hired?
 
-- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2  additional weeks.
+- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2 additional weeks of onboarding.
 
 ### What are your compensation expectations?
 
@@ -192,14 +196,12 @@ AIESEC
 
 ### Questions to Interviewer
 
-- Teams setup
+- Team setup
 - Mobility to other countries?
-- Separation between front-end and back-end, different orgs? mobility between teams? Ruby is a hard requirement
-- Conversation development?
-- That said, we would love to work on a 2-week release cycle, but that should be another conversation.
+- Separation between front-end and back-end, different orgs? mobility between teams? 
+  - Ruby is a hard requirement?
 - Travel requirements or needs?
-- How to collect feedback from users?
-- Time enough to join Gitlab contribute https://about.gitlab.com/company/culture/contribute/ ?
+- Maybe not time enough to join Gitlab contribute, next one is in 22 days: May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/ ?
 
 ### TODO
 
