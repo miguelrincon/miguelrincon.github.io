@@ -18,13 +18,13 @@ I have worked in Agile Project management, Digital Marketing, Automation & CI, [
 
 Listing in somewhat particular order:
 
-JavaScript, AngularJS, NodeJS, Python, Scrum, Agile, Git, SASS & SCCS, Jasmine, Jenkins, Gitlab, SonarQube, Code Quality, Linux, Testing Automation, Jasmine, Protractor, SalesForce, Continuous Integration, Continuous Delivery, PHP, Drupal, Product Design.
+**JavaScript**, AngularJS, NodeJS, Python, Scrum, **Agile**, Git, SASS & SCCS, Jasmine, Jenkins, Gitlab, SonarQube, Code Quality, Linux, Testing Automation, Jasmine, Protractor, SalesForce, Continuous Integration, **Continuous Delivery**, PHP, Drupal, Product Design.
 
 *See some [online courses I am enrolled in!](https://www.udemy.com/user/miguel-rincon-4/)*
 
 ### More than tech
 
-I have led teams, I have hired people, coached and mentored them, I have worked with people from many countries, in person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization related topics.
+I have led teams, I have **hired** people, **coached and mentored** them, I have worked with people from many countries, in person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization related topics.
 
 ### Let's talk about something else...
 
