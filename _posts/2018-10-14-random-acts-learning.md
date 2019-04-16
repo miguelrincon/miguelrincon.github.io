@@ -16,7 +16,10 @@ My technical skills are still a big part of my contribution and are needed to ha
 
 ## Where to learn? 
 
-While a StackOverflow post, or a random Google search will answer a specific question, to really learn (or relearn) about a technology or approach I often prefer a more structured approach. I used to buy e-books, but when I did my research a few months ago I understood clearly that online options for self-learning are extremely abundant and of very high quality. 
+While a StackOverflow post, or a random Google search will answer a specific question, to really learn (or relearn) about a technology or approach I often prefer a more structured approach. I used to buy e-books, but when I did my research a few months ago I understood clearly that online options for self-learning are extremely abundant and of very high quality.
+
+**Update:** See my [Udemy personal profile](https://www.udemy.com/user/miguel-rincon-4/)!
+{:class="h2"}
 
 The courses come with videos, auto-checking coding exercises and online command lines. Most courses are even gamified! (Getting some XP points after a session is an additional satisfying feeling).
 
