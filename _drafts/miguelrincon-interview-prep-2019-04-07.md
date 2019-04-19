@@ -93,30 +93,6 @@ More recently, I lead the development of WeChart mini application, and most of i
 
 ### STAR questions and simple technical or skills-related questions
 
-#### Technical notes
-
-- vue:
-  - app: new Vue({})
-  - components (export default)
-    - html/script/style/ together
-      - v-bind
-      - v-for
-      - @click="$emit('event-name', eventData)"
-      - v-on
-      - v-model
-    - script:
-      - props: key-value pair with the html properties
-      - data(): function returns the state
-      - methods{}: obj with methods of the component
-      - created(): hook
-  - template directive
-  - state
-    - vuex state management
-  - vuejs devtools
-  - unit testing: Vue.nextTick
-
-#### STAR questions
-
 Situation, Task, Action, and Result (STAR)
 
 Projects to mention:
@@ -152,7 +128,7 @@ Projects to mention:
 
 12. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
 
-13. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
+13. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for about a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
 
 
 ### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
@@ -174,7 +150,113 @@ Projects to mention:
 - Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
 - Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
 
-# Screening call prep
+
+### Questions to Interviewer
+
+- Team setup
+  - Must check different teams, such as Monitor, Create, ...
+- Mobility to other countries?
+  - 6 months min. to be considered a move
+- Separation between front-end and back-end, different orgs.? mobility between teams?
+  - Learning track and encouraged
+  - Ruby is a hard requirement? Will ask tech. manager
+- Travel requirements or needs?
+  - Timezone?
+- Maybe not time enough to join Gitlab Contribute...
+  - Next one is  May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/
+
+# Technical Interview
+
+## Technical Interview Questions
+
+### General
+
+Describe MVC  
+
+Can you tell me how your process is architecting things?  
+
+### JS
+
+**What's the difference between .map and .forEach?**
+
+- forEach() executes a provided function once for each array element.
+- map() creates a new array with the results of calling a provided function on every element in the calling array.
+
+**Does JavaScript pass by value or by reference?**
+
+Does JS use pass by value or pass by reference?  
+
+How to create DOM element from vanilla JS?  
+
+Difference between GET and POST?  
+
+Explain "this"? 
+
+What is a closure?  
+
+Difference from .call, .apply, .bind?  
+
+What is the event loop?  
+
+Explain event propagation and bubbling?  
+
+What would be a reason to use ES6 classes?  
+
+Can you explain Vue's reactivity?  
+
+How to create Class methods (object.prototype)?
+
+How to inherit an object from another object's prototype?
+
+Function references and binding the this keyword to make the this keyword work inside the function body, i.e. in an oncl1ck event.  
+
+Call stack / Event loop
+
+#### Vue
+
+What is the virtual DOM?  
+
+- vue:
+  - app: new Vue({})
+  - components (export default)
+    - html/script/style/ together
+      - v-bind
+      - v-for
+      - @click="$emit('event-name', eventData)"
+      - v-on
+      - v-model
+    - script:
+      - props: key-value pair with the html properties
+      - data(): function returns the state
+      - methods{}: obj with methods of the component
+      - created(): hook
+  - template directive
+  - state
+    - vuex state management
+  - vuejs devtools
+  - unit testing: Vue.nextTick
+
+### CSS/Style
+
+Difference between inline, inline-block, block elements?  
+
+How to select the first children of an element? How to select the odd children elements?
+
+What does box-sizing: border-box do?
+
+Explain absolute/relative/fixed positioning.
+
+### Pair code challenge
+
+Code Challenge - you have 10 minutes to build a linked list, pair program.
+
+# Further Screening Style Calls
+
+What do you expect to achieve in your first month at GitLab?
+
+What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?  
+
+What were you most satisfied with in your recent/current position?  
 
 Gitlab values: CREDIT
 - Collaboration
@@ -193,15 +275,6 @@ SMART answers
 Moving from team manager to IC/member -> leadership can come naturally from skills I obtain 
 
 AIESEC
-
-### Questions to Interviewer
-
-- Team setup
-- Mobility to other countries?
-- Separation between front-end and back-end, different orgs? mobility between teams? 
-  - Ruby is a hard requirement?
-- Travel requirements or needs?
-- Maybe not time enough to join Gitlab contribute, next one is in 22 days: May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/ ?
 
 ### TODO
 
