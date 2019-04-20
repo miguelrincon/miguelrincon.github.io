@@ -73,23 +73,34 @@ Several reasons:
 
 ### What are you looking for in your next position?
 
-- I want participate in a large project that has a big impact on people, and have fun while doing so.
-- I want to have the experience of managing myself at evey step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others. 
-- I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
+Role:
+- I want to have the experience of managing myself at every step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others. 
 - I think there is a critical window of opportunity for me to continue on a technical path... It is time for me to go back in the technical field... as I want to continue on this track before skills begin rotting.
+- I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
+
+Company-wide
+- I want to work in a company that has a clear mission... and a mission that is different from "advertising", which is something most big tech companies do. 
 
 ### Why did you join and leave your last three positions?
 
-- I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breath over depth matches my interests.
-- I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited.
+- MCON Group, eBay, Altima
+
+- I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breadth over depth matches my interests.
+
+
+- I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited. China changes quickly.
 
 ### What is your experience with X? (for each of the skills listed in the position description)
+
+- AngularJS
+- Vue
+- WeChat mini program framework
 
 So, my main experience in front-end frameworks has been with AngularJS, this is how I built Pulsar UI, the project I built with eBay. Previously I had worked with Backbone JS, which was the way got into building using Web Frameworks.
 
 Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use VueJS becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
 
-More recently, I lead the development of WeChart mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages. The difference with Vue is mostly in that they are opinionated on the routing method.
+More recently, I lead the development of WeChat mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages.
 
 ### STAR questions and simple technical or skills-related questions
 
@@ -120,13 +131,12 @@ More recently, I lead the development of WeChart mini application, and most of i
 Situation, Task, Action, and Result (STAR)
 
 Projects to mention:
-- Pulsar
-- Fairgarage
-- TimeValee pitch
-- Porsche Club Mini Program
-- PEC Online booking
-- MCON website
-- VWFS Online
+- Pulsar: Rewrote the application in 2 weeks.
+- Fairgarage: Wrote the whole thing from a book using BackboneJS.
+- TimeValee pitch: Convinced a customer to take us thanks to the technical presentation.
+- Porsche Club Mini Program: Succesful release under a time pressure -> iterations over big delivery.
+- PEC Online booking: Revive the project from a hole using best practices, automated testing.
+- VWFS Online: Remote work and diversity, convince them that another setup with possible. Innovative project for an old style company.
 - Non-work: HSK
 
 1. **Tell me about a time you had a conflict at work.** There was a disagreement with one of my designer colleagues, we had friction because her designs were not web friendly, she was designing the websites with a fixed frame and couldn't understand responsive methods. I had to undwerstand that design can be quite personal. My solution was to spend time with her and explain to her the technicalities behind responsive design, I also worked with her to create a kitchen sink or framework for the project we were working on, so the layout design was mostly left on the hands of the development team with her guidance and feedback.
@@ -137,22 +147,19 @@ Projects to mention:
 
 4. **Tell me about a time when you performed well under enormous pressure.** Well recently our Mini Program had to be released and my front-end collague had to leave for home. I had to finish the project by myself, and finish a lot the unfinished tasks without him. I was fortunately able to deliver on time, in part thanks to him agreeing to explain a few things durign his time off.  
 
-5. **Have you ever dealt with a sticky situation involving another department?** Sure, I have to work with the operations team in my company. I think  
-6. STAR Model Answer: Previously, my department had a misunderstanding with members of our accounting department. We needed to correct the issue to keep office morale from plummeting. I gave my team a small budget and instructed my team to each pick out a thoughtful present for their counterpart in accounting. Later that night and from then onward, we became friends and strong colleagues.
+5. **Give me an example of a goal you met.** STAR Model Answer: I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
 
-7. **Give me an example of a goal you met.** STAR Model Answer: I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
+6. **Give me an example of a goal you couldn't meet and how you handled it.** STAR Model Answer: I hired a TPM as colleague and had really high expectations from him. However, no matter how hard I tried I was not able to sell him on my vision the team: I had a lot of ideas about automation and dockerizing a lot of our systems. Unfortunately I had too many team frictions and disagreements with him. I discussed with my manager and we decided he was not a fit for the role, unfrotunately I had to ask him to leave.
 
-8. **Give me an example of a goal you couldn't meet and how you handled it.** STAR Model Answer: I hired a TPM as colleague and had really high expectations from him. However, no matter how hard I tried I was not able to sell him on my vision the team: I had a lot of ideas about automation and dockerizing a lot of our systems. Unfortunately I had too many team frictions and disagreements with him. I discussed with my manager and we decided he was not a fit for the role, unfrotunately I had to ask him to leave.
+7.  **Tell me about a time when you had to placate an unsatisfied client.** STAR Model Answer: I happened to end building the internal website of our company, and the feedback from one of the partners was that the website was literally "shit". Initially I wanted him to submit bug reports... but this was not working I decided I would have a call with him to try to figure out what was wrong, and in the end, although the issues seemed major to him, they were easy to fix. The key was to do the meeting with him to sort out the issues, actually I was writing them during the meeting so he understood our process.
 
-9.  **Tell me about a time when you had to placate an unsatisfied client.** STAR Model Answer: I happened to end building the internal website of our company, and the feedback from one of the partners was that the website was literally "shit". Initially I wanted him to submit bug reports... but this was not working I decided I would have a call with him to try to figure out what was wrong, and in the end, although the issues seemed major to him, they were easy to fix. The key was to do the meeting with him to sort out the issues, actually I was writing them during the meeting so he understood our process.
+8.  **Have you ever had a disagreement with an immediate supervisor?** / **Describe a decision you made that wasn't popular and how you handled implementing it.**  When I started in eBay I had a difficult time adjusting to the new team. I saw the state of the UI and I knew I could produce something better... But this would mean, basically a re-write of the project, my architect of the team refused to listen to this proposal. So I decided, show and don't tell: I asked for permission to work on a PoC and spent a few days on it. He was so impressed with the concepts that he allowed me to rewrite the project gradually and we finished extremely fast with a more readable and extensible code.
 
-10. **Have you ever had a disagreement with an immediate supervisor?** / **Describe a decision you made that wasn't popular and how you handled implementing it.**  When I started in eBay I had a difficult time adjusting to the new team. I saw the state of the UI and I knew I could produce something better... But this would mean, basically a re-write of the project, my architect of the team refused to listen to this proposal. So I decided, show and don't tell: I asked for permission to work on a PoC and spent a few days on it. He was so impressed with the concepts that he allowed me to rewrite the project gradually and we finished extremely fast with a more readable and extensible code.
+9.  **Give an example of how you set goals.** Non-work example: Many of my goals are learning goals. I decided I wanted to improve my Chinese level, so instead of setting a goal like, "learn more", I signed up to the official exam. I studied a lot, during lunch, and in the mornings... and I passed! I had to set measurable example.
 
-11. **Give an example of how you set goals.** Non-work example: Many of my goals are learning goals. I decided I wanted to improve my Chinese level, so instead of setting a goal like, "learn more", I signed up to the official exam. I studied a lot, during lunch, and in the mornings... and I passed! I had to set measurable example.
+10. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
 
-12. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
-
-13. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
+11. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
 
 
 ### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
@@ -170,29 +177,9 @@ Projects to mention:
 
 ### What are your compensation expectations?
 
-- Frontend Engineer | Intermediate | Amsterdam | $67,096 - $70,383 (58,631 EUR - 61,503 EUR)
-- Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
-- Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
-
-# Screening call prep
-
-Gitlab values: CREDIT
-- Collaboration
-- Results
-- Efficiency
-- Diversity
-- Iteration
-- Transparency
-
-Diversity built-in
-
-Results - OKR
-
-SMART answers
-
-Moving from team manager to IC/member -> leadership can come naturally from skills I obtain 
-
-AIESEC
+Frontend Engineer | Intermediate | Amsterdam | $67,096 - $70,383 (58,631 EUR - 61,503 EUR)
+Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
+Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
 
 ### Questions to Interviewer
 
@@ -202,6 +189,7 @@ AIESEC
   - Ruby is a hard requirement?
 - Travel requirements or needs?
 - Maybe not time enough to join Gitlab contribute, next one is in 22 days: May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/ ?
+- OKR
 
 ### TODO
 
