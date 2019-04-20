@@ -51,18 +51,24 @@ thisArg = { /* ... */ } // some object
 
 function myFunction(a, b, c) { /* refere to this... */ }
 ```
+
 .call will call the function wit ha given context and the reminder arguments.
-```
+
+```js
 // .call
 myFunction.call(thisArg, 1, 2, 3)
 ```
+
 .apply will call the function wit ha given context and the reminder arguments in array format.
-```
+
+```js
 // .apply
 myFunction.apply(thisArg, [1, 2, 3])
 ```
+
 .bind will create a new function that is *bound* to a given thisArg.
-```
+
+```js
 // .bind
 boundFunc = myFunction.bind(thisArg)
 bundFunc(1, 2, 3)
@@ -136,7 +142,7 @@ It mostly helps to use the prototypical inhericance of JS in a way that is more 
 
 First, create a "class" with a constructor function. Then add the method to its prototype.
 
-```
+```js
 var Person = function(first, last) {
     if (!(this instanceof Person)) {
         throw new Error("Person is a constructor function, use new with it");
