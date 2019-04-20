@@ -27,21 +27,21 @@ As in my previous "comment textbox" example, an XSS attack occurs if a malicious
 
 To prevent XSS attacks the input of the users must be "sanitized", so it cannot contain any `script` tags, or so that the `script` tags are rendered in a non-harmful way.
 
-There are two moments when sanitization of users' input can occur, either before the user input is stored or when the data is rendered as HTML output. 
+There are two moments when sanitization of users' input can occur, either before the user input is stored or when the data is rendered as HTML output.
 
 ## Q4. Tell us about your latest "hard to debug" problem. How did you resolve it? Which tools did you use?
 
-Recently I faced an apparently random issue in one of our projects: some requests to our API would return a 500 error at apparently random moments. Users were seeing the issue infrequently, but it affected the homepage. There was pattern: the issue was present in two requests, one, which loaded some promotional data and other that, would show the users newsfeed: both requests were issued from the homepage. 
+Recently I faced an apparently random issue in one of our projects: some requests to our API would return a 500 error at apparently random moments. Users were seeing the issue infrequently, but it affected the homepage. There was pattern: the issue was present in two requests, one, which loaded some promotional data and other that, would show the users newsfeed: both requests were issued from the homepage.
 
 After some digging, I found that it was a database locking issue. I used the apache logs to diagnose the issue and `curl` to reproduce it by making two requests in quick succession.
 
-Since we had implemented a gamification feature recently, the first users’ homepage request would write to the points table and the second read from it at almost the same time. We patched the issue by locking the points related transactions correctly. 
+Since we had implemented a gamification feature recently, the first users’ homepage request would write to the points table and the second read from it at almost the same time. We patched the issue by locking the points related transactions correctly.
 
 ## Q5. Tell us about your most advanced/exciting/mind-blowing JS/CSS implementation
 
 I am very proud of my work at eBay. While there, I worked on a project called Pulsar UI. It is similar to Google Analytics: it can show data for users to understand the traffic on eBay's multiple sites.
 
-When I joined the team to work on their UI, and AngularJS application. The UI team had a lot of trouble handling the state of the application. They had created a lot "spaghetti" code to keep track of what the user had done and what page should be displayed. It all came crashing down when a feature for "bookmarking" was needed and it was obvious it was impossible to implement. 
+When I joined the team to work on their UI, and AngularJS application. The UI team had a lot of trouble handling the state of the application. They had created a lot "spaghetti" code to keep track of what the user had done and what page should be displayed. It all came crashing down when a feature for "bookmarking" was needed and it was obvious it was impossible to implement.
 
 I created a demo in which I restructured the project around [UI Router](https://github.com/angular-ui/ui-router) and rebuilt much of the UI in a few weeks. Now, it was possible to add new pages (reports) easily and we even got to build a point and click dashboard creator.
 
@@ -67,26 +67,25 @@ Several reasons:
 - I have known Gitlab's product since I joined my current company about 2 years ago, I got into a CI/CD implementation right after I started and Gitlab has always helped me.
 - Since then, I spent a lot of time reading about the companies values and vision and I aligned to with them. And even used many of the ideas on how to setup my own projects at the company.
 - I completely connect with a few of the values: I am very comfortable in diverse environments, my friends and colleagues come from all over the world.
-- As regards to remote work, I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me. 
+- As regards to remote work, I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me.
 - I got married recently and so I want to have more mobility to travel with my partner.
 - The most fun I ever had was working on an open source project during my time a eBay and I would like to do it again.
 
 ### What are you looking for in your next position?
 
 Role:
-- I want to have the experience of managing myself at every step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others. 
+- I want to have the experience of managing myself at every step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others.
 - I think there is a critical window of opportunity for me to continue on a technical path... It is time for me to go back in the technical field... as I want to continue on this track before skills begin rotting.
 - I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
 
 Company-wide
-- I want to work in a company that has a clear mission... and a mission that is different from "advertising", which is something most big tech companies do. 
+- I want to work in a company that has a clear mission... and a mission that is different from "advertising", which is something most big tech companies do.
 
 ### Why did you join and leave your last three positions?
 
 - MCON Group, eBay, Altima
 
 - I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breadth over depth matches my interests.
-
 
 - I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited. China changes quickly.
 
@@ -102,9 +101,88 @@ Later, I helped my team at MCON select the next generation framework... so this 
 
 More recently, I lead the development of WeChat mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages.
 
-### STAR questions and simple technical or skills-related questions
+### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
 
-#### Technical notes
+- I am currently located in Shanghai, and I am have mid terms plans to relocate. In fact, I am looking for positions open in Amsterdam.
+
+### Do you require visa sponsorship or a work permit to work for GitLab?
+
+- I most probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
+- It depends on my setup, and I can do the research needed for this.
+
+### What is the notice period you would need if you were hired?
+
+- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2 additional weeks of onboarding.
+
+### What are your compensation expectations?
+
+- Frontend Engineer | Intermediate | Amsterdam | $67,096 - $70,383 (58,631 EUR - 61,503 EUR)
+- Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
+- Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
+
+
+## Questions to Screening Interviewer
+
+- Mobility to other countries?
+  - 6 months min. to be considered a move
+- Maybe not time enough to join Gitlab Contribute...
+  - Next one is  May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/
+
+# Technical Interview
+
+## Technical Interview Questions
+
+### General
+
+Describe MVC
+
+Can you tell me how your process is architecting things?
+
+### JS
+
+**What's the difference between .map and .forEach?**
+
+- forEach() executes a function once for each array element.
+- map() **Creates a new array** with the results of calling a provided function on every element in the calling array.
+
+
+**Does JavaScript pass by value or by reference?**
+
+
+
+**How to create DOM element from vanilla JS?**
+
+**Difference between GET and POST?**
+
+**Explain "this"?**
+
+**What is a closure?**
+
+**Difference from .call, .apply, .bind?**
+
+**What is the event loop?**
+
+**Call stack / Event loop**
+
+**Explain event propagation and bubbling?**
+
+**What would be a reason to use ES6 classes?**
+
+**How to create Class methods (object.prototype)?**
+
+**How to inherit an object from another object's prototype?**
+
+**Function references and binding the this keyword to make the this keyword work inside the function body, i.e. in an oncl1ck event.**
+
+**What are some major differences between ES5 and ES6**
+
+#### Vue
+
+**Can you explain Vue's reactivity?**
+
+**What is the virtual DOM?**
+
+**Vue concepts**
 
 - vue:
   - app: new Vue({})
@@ -126,7 +204,44 @@ More recently, I lead the development of WeChat mini application, and most of it
   - vuejs devtools
   - unit testing: Vue.nextTick
 
-#### STAR questions
+### CSS/Style
+
+Difference between inline, inline-block, block elements?
+
+How to select the first children of an element? How to select the odd children elements?
+
+What does box-sizing: border-box do?
+
+Explain absolute/relative/fixed positioning.
+
+### Pair code challenge
+
+Code Challenge - you have 10 minutes to build a linked list, pair program.
+
+Some helpful functions
+- Array.prototype.includes()
+
+```
+const arr = [1, 2, 3, 4, 5, 6];
+arr.includes(2); // output: true
+arr.includes(7); // output: false
+```
+
+### Questions to Technical Interviewer
+
+- Team setup
+  - Must check different teams, such as Monitor, Create, ... https://about.gitlab.com/job-families/engineering/frontend-engineer/#team-specialties
+- Separation between front-end and back-end, different orgs.? mobility between teams?
+  - Learning track and encouraged
+  - Ruby is a hard requirement? Will ask tech. manager
+- Travel requirements or needs?
+  - Timezone?
+- Results - OKR
+
+
+# Further Screening-Style Calls
+
+### STAR questions and simple technical or skills-related questions
 
 Situation, Task, Action, and Result (STAR)
 
@@ -145,7 +260,7 @@ Projects to mention:
 
 3. **Can you detail a mistake you made and how you reacted to it?** I think one of my mistakes had been give a raise to one of my colleagues asd a motiviation to perform. She was not doing great, but when she asked for a raise I though it was an opportunity to motivate her. That was not the case, and her performance didn't change. Later when she was leaving, I learned that she has personal issues and now I understand that I should have addressed the root cause instead of trying to motivate her with the wrong methods.
 
-4. **Tell me about a time when you performed well under enormous pressure.** Well recently our Mini Program had to be released and my front-end collague had to leave for home. I had to finish the project by myself, and finish a lot the unfinished tasks without him. I was fortunately able to deliver on time, in part thanks to him agreeing to explain a few things durign his time off.  
+4. **Tell me about a time when you performed well under enormous pressure.** Well recently our Mini Program had to be released and my front-end collague had to leave for home. I had to finish the project by myself, and finish a lot the unfinished tasks without him. I was fortunately able to deliver on time, in part thanks to him agreeing to explain a few things durign his time off.
 
 5. **Give me an example of a goal you met.** STAR Model Answer: I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
 
@@ -161,31 +276,35 @@ Projects to mention:
 
 11. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
 
+What do you expect to achieve in your first month at GitLab?
 
-### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
+What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
 
-- I am currently located in Shanghai, and I am have mid terms plans to relocate. In fact, I am looking for positions open in Amsterdam.
+What were you most satisfied with in your recent/current position?
 
-### Do you require visa sponsorship or a work permit to work for GitLab?
+Gitlab values: CREDIT
+- Collaboration
+- Results
+- Efficiency
+- Diversity
+- Iteration
+- Transparency
 
-- I most probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
-- It depends on my setup, and I can do the research needed for this.
+Diversity built-in
 
-### What is the notice period you would need if you were hired?
+Results - OKR
 
-- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2 additional weeks of onboarding.
+SMART answers
 
-### What are your compensation expectations?
+Moving from team manager to IC/member -> leadership can come naturally from skills I obtain
 
-Frontend Engineer | Intermediate | Amsterdam | $67,096 - $70,383 (58,631 EUR - 61,503 EUR)
-Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
-Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
+AIESEC
 
 ### Questions to Interviewer
 
 - Team setup
 - Mobility to other countries?
-- Separation between front-end and back-end, different orgs? mobility between teams? 
+- Separation between front-end and back-end, different orgs? mobility between teams?
   - Ruby is a hard requirement?
 - Travel requirements or needs?
 - Maybe not time enough to join Gitlab contribute, next one is in 22 days: May 8th - 14th 2019! https://about.gitlab.com/company/culture/contribute/ ?
