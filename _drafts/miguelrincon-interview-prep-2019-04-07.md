@@ -132,87 +132,9 @@ More recently, I lead the development of WeChat mini application, and most of it
 
 ## Technical Interview Questions
 
-### General
-
-Describe MVC
+Use my own Kit!
 
 Can you tell me how your process is architecting things?
-
-### JS
-
-**What's the difference between .map and .forEach?**
-
-- forEach() executes a function once for each array element.
-- map() **Creates a new array** with the results of calling a provided function on every element in the calling array.
-
-
-**Does JavaScript pass by value or by reference?**
-
-
-
-**How to create DOM element from vanilla JS?**
-
-**Difference between GET and POST?**
-
-**Explain "this"?**
-
-**What is a closure?**
-
-**Difference from .call, .apply, .bind?**
-
-**What is the event loop?**
-
-**Call stack / Event loop**
-
-**Explain event propagation and bubbling?**
-
-**What would be a reason to use ES6 classes?**
-
-**How to create Class methods (object.prototype)?**
-
-**How to inherit an object from another object's prototype?**
-
-**Function references and binding the this keyword to make the this keyword work inside the function body, i.e. in an oncl1ck event.**
-
-**What are some major differences between ES5 and ES6**
-
-#### Vue
-
-**Can you explain Vue's reactivity?**
-
-**What is the virtual DOM?**
-
-**Vue concepts**
-
-- vue:
-  - app: new Vue({})
-  - components (export default)
-    - html/script/style/ together
-      - v-bind
-      - v-for
-      - @click="$emit('event-name', eventData)"
-      - v-on
-      - v-model
-    - script:
-      - props: key-value pair with the html properties
-      - data(): function returns the state
-      - methods{}: obj with methods of the component
-      - created(): hook
-  - template directive
-  - state
-    - vuex state management
-  - vuejs devtools
-  - unit testing: Vue.nextTick
-
-### CSS/Style
-
-Difference between inline, inline-block, block elements?
-
-How to select the first children of an element? How to select the odd children elements?
-
-What does box-sizing: border-box do?
-
-Explain absolute/relative/fixed positioning.
 
 ### Pair code challenge
 
