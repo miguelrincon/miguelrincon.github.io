@@ -140,15 +140,6 @@ Can you tell me how your process is architecting things?
 
 Code Challenge - you have 10 minutes to build a linked list, pair program.
 
-Some helpful functions
-- Array.prototype.includes()
-
-```
-const arr = [1, 2, 3, 4, 5, 6];
-arr.includes(2); // output: true
-arr.includes(7); // output: false
-```
-
 ### Questions to Technical Interviewer
 
 - Team setup

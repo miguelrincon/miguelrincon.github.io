@@ -3,7 +3,10 @@ layout: page
 title: Miguel's Interview Kit
 ---
 
-Interview coming up? Are you interviewing... bing interviewed? Use these reference questions and answers!
+Interview coming up? Are you interviewing... bing interviewed? Use these reference questions and answers! (Strong focus on front-end development).
+
+* This will become a table of contents (this text will be scraped).
+{:toc}
 
 # JavaScript Questions
 
@@ -86,7 +89,9 @@ Each closure has access to 3 scopes:
 - Outer Functions Scope
 - Global Scope
 
-[MDN Article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+Hoisting means that variable and function declarations are allocated in memory during the `compile phase`. More practically one can think of variable and function declarations moved to the top of functions.
+
+[MDN Article on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ## How to inherit an object from another object's prototype?
 
@@ -156,7 +161,7 @@ Person.prototype.personMethod = function() {
 };
 ```
 
-## Function references and binding the this keyword to make the this keyword work inside the function body, i.e. in an onclick event.
+## A function that references or binds to the this keyword, i.e. in an onclick event.
 
 Make `this` be attached to function as needed:
 
@@ -166,6 +171,7 @@ Make `this` be attached to function as needed:
 
 <script>
   (function () {
+    // Show the content of clicked element.
     let showButtonContent = function (e) {
       e.stopPropagation();
       alert(this.innerHTML);
@@ -191,7 +197,7 @@ Make `this` be attached to function as needed:
 
 **Event Capturing**: In some cases is possible to "capture" events during their "capture phase", which occure before the bubbling phase.
 
-[Source Article](https://javascript.info/bubbling-and-capturing)
+[Bubbling & Capturing Article](https://javascript.info/bubbling-and-capturing)
 
 ## How to create DOM element with vanilla JS?
 
@@ -208,39 +214,134 @@ newDiv.innerHTML = "Page content";
 document.body.appendChild(newDiv);
 ```
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+[MDN createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 
 ## What are some major differences between ES5 and ES6
 
-In progress...
+Syntax differences
+- Arrow Function `() => expr;`
+- Extract values `let {a, b} = obj;`
+- Spread operator `var copyObj1 = (...obj1)`
+- `Promise` class
+- `export default a` and `import a from './file'`
+- let, const
+- template literal `${n} of ${total}`
 
-# HTTP
+# CSS/Style
 
-## What' the difference between GET and POST?
+## Difference between inline, inline-block, block elements?
 
-GET and POST are two types of HTTP requests.
+All html elements are rectangular boxed. CSS allows developer to manipulate how the rectangular boxes interact with each other.
 
-In progress...
+```css
+display: inline;
+```
+`inline`: makes elements flow as they would inside text. margin and padding will push other elements horizontally. heigh and width are ignored.
 
-*Bonus: Why is GET sometimes considered to be sending parameters to the naked eye?*
+```css
+display: inline-block;
+```
+`inline-block`: Unlike inline it allows to set a heigth and width, and the element will still flow with the test.
 
-# General Architecture Concepts
+```css
+display: block;
+```
+`block`: Block elements break lines after and before them.
+
+Other display values allow more flexible control, such as: `flex`, `grid`, `table`.
+
+["display" in CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
+
+## How to select the first children of an element? How to select the odd children elements?
+
+CSS3 defined "structural pseudo-class" selectors. Given the HTML:
+
+```html
+<section class="grid">
+  <article class="module">One</article>
+  <article class="module">Two</article>
+  <article class="module">Three</article>
+  <article class="module">Four</article>
+  <article class="module">Five</article>
+</section>
+```
+We can select the first child:
+```
+.module:first-child{ /* ... */ }
+```
+We can select odd children using the keyword `odd` or the formula `an+b`:
+```
+.module:nth-child(odd){ /* ... */ }
+.module:nth-child(2n+1){ /* ... */ }
+```
+["nth-child" in CSS tricks](https://css-tricks.com/almanac/selectors/n/nth-child/)
+
+## What does box-sizing: border-box do?
+
+
+`box-sizing` has three possible values: `content-box`, `padding-box`, and `border-box`.
+
+In `box-sizing: border-box` the width of the element includes the padding and borders. 
+
+`border-box` is useful when, for example, we want an element to have 100% width and stay that way in spite of borders or padding applied to it.
+
+[CSS Tricks on Box Sizing](https://css-tricks.com/box-sizing/)
+
+## Explain absolute/relative/fixed positioning.
+
+CSS rules:
+```css
+position: fixed;
+position: absolute;
+position: relative;
+```
+
+`fixed` keeps the box in the same place relative to the viewport (browser window).
+
+`absolute` keeps the box in the same place relative to the page or to the next parent element with relative (or absolute) `position`.
+
+`relative` positions the element relative to itself by allowing to set properties such as `top`.
+
+[CSS tricks post on "position"](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
+
+# General Concepts
+
+## What' the difference between HTTP GET and POST?
+
+GET and POST are two types of HTTP requests. GET is idempotent and POST is meant to create (or manipulate) resources on the server.
+
+***Bonus:** Why is GET sometimes considered to be sending parameters to the naked eye?*
+
+The parameters in the URL can often be cached by proxies and other servers between the client and the destination server.
 
 ## Describe MVC
 
-In progress...
+MVC is an architectural pattern which splits an application into three logical components: model, view, and controller.
+
+The model is a representation of the data in the application, the view is the user interface of the application and the controller passes messages between the view and the model.
 
 # Vue
 
 ## Can you explain Vue's reactivity?
 
-In progress...
+Vue's Reactivity depends mainly on 2 facts:
 
-## What is the virtual DOM?
+1. `Object.defineProperty` allows objects to respond to changes and accesses to the values of their properties using `getters` and `setters`.
+2. A Dep class can collect which dependencies are attached to a property, so the Vue can notify of changes on the properties using an observer pattern.
 
-In progress...
+When the value of a property changes, the changes to the property are notified to the view.
 
-## Vue concepts
+[Video: Build a reactivity system in 15 minutes](https://www.vuemastery.com/courses/advanced-components/build-a-reactivity-system/)
+
+## What is the Virtual DOM?
+
+The DOM (Document Object Model) is a tree-like data structure that represents the HTML on a browswer.
+
+The virtual DOM is an abstraction of the DOM, which is cheap to update. The virtual DOM and the DOM can be syncronized less often than the virtual DOM gets updated.
+
+[Vue's Virtual DOM article](https://medium.com/js-dojo/whats-the-deal-with-vue-s-virtual-dom-3ed4fc0dbb20)
+
+## Vue notes
 
 - vue:
   - app: new Vue({})
@@ -261,24 +362,6 @@ In progress...
     - vuex state management
   - vuejs devtools
   - unit testing: Vue.nextTick
-
-# CSS/Style
-
-## Difference between inline, inline-block, block elements?
-
-In progress...
-
-## How to select the first children of an element? How to select the odd children elements?
-
-In progress...
-
-## What does box-sizing: border-box do?
-
-In progress...
-
-## Explain absolute/relative/fixed positioning.
-
-In progress...
 
 # Found a mistake?
 
