@@ -19,7 +19,7 @@ I have worked in Agile Project management, Digital Marketing, Automation & CI, [
 | ...work on an open source project?                  | [Pulsar UI](/pages/pulsar-reporting-ui/)
 | ...get an AWS certification?                        | [Certified Solutions Architect - Assoc.](/2018-03-06-amazon-certified/)
 | ...make a full-stack Pyton app with OAuth?          | [Catalog M](http://ec2-3-84-208-127.compute-1.amazonaws.com/)
-| ...build a demo of VueJS + ECharts? `New!`          | [Pollution? Here, a chart!](/pages/pollution-chart/index.html)
+| ...build a demo of VueJS + ECharts? `New!`          | [Pollution? Here's a chart.](/pages/pollution-chart/index.html)
 {:style="width:100%;"}
 
 ### Specifics about tech?
