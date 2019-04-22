@@ -10,9 +10,17 @@ Full stack developer and software team leader in Shanghai, China.
 
 During my career, I have been lucky to work with amazing technologies, and with amazing people.
 
-My work as a software engineer as has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development (an example: [Pulsar UI](/pages/pulsar-reporting-ui/)) *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
+My work as a software engineer as has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
 
 I have worked in Agile Project management, Digital Marketing, Automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management. I champion Continuous Delivery (CI/CD) in all projects in which I take part.
+
+| Did Miguel...                                       | cool, show me!
+| --------------------------------------------------: |--
+| ...work on an open source project?                  | [Pulsar UI](/pages/pulsar-reporting-ui/)
+| ...get an AWS certification?                        | [Certified Solutions Architect - Assoc.](/2018-03-06-amazon-certified/)
+| ...make a full-stack Pyton app with OAuth?          | [Catalog M](http://ec2-3-84-208-127.compute-1.amazonaws.com/)
+| ...build a demo of VueJS + ECharts? `New!`          | [Pollution? Here, a chart!](/pages/pollution-chart/index.html)
+{:style="width:100%;"}
 
 ### Specifics about tech?
 
