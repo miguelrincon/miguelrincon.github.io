@@ -151,7 +151,7 @@ defaults:
       show-avatar: true
   -
     scope:
-      path: "materials/**/*.pdf"
+      path: "materials/**/*"
     values:
       sitemap: false
   -
