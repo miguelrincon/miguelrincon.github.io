@@ -149,6 +149,16 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
+  -
+    scope:
+      path: "materials/**/*.pdf"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "google*.html"
+    values:
+      sitemap: false
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
@@ -218,3 +228,4 @@ prose:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
