@@ -3,7 +3,7 @@ layout: page
 title: Miguel's Interview Kit
 ---
 
-Interview coming up? Are you interviewing... bing interviewed? Use these reference questions and answers! (Strong focus on front-end development).
+Interview coming up? Are you interviewing... being interviewed? Use these reference questions and answers! (Strong focus on front-end development).
 
 * This will become a table of contents (this text will be scraped).
 {:toc}
