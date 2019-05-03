@@ -154,9 +154,24 @@ Code Challenge - you have 10 minutes to build a linked list, pair program.
 
 # Further Screening-Style Calls
 
+
+Other notes:
+- MRs as smallest unit of work
+- Minimum viable change
+- Throughput measurements
+- Promotions: https://about.gitlab.com/handbook/people-operations/promotions-transfers/
+- Prettier / Storybook
+- https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/job-families/engineering/frontend-engineer/index.html.md
+- https://about.gitlab.com/handbook/questions/ fill out the questionnaire??
+- https://docs.gitlab.com/ce/development/fe_guide/ FE Guide
+- https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/
+
+- 
+
+
 ### STAR questions and simple technical or skills-related questions
 
-Situation, Task, Action, and Result (STAR)
+-> Situation -> Task -> Action -> Result (STAR)
 
 Projects to mention:
 - Pulsar: Rewrote the application in 2 weeks.
@@ -213,7 +228,76 @@ Moving from team manager to IC/member -> leadership can come naturally from skil
 
 AIESEC
 
-### Questions to Interviewer
+### Essay
+
+Answers:
+
+- Why do you want join Gitlab
+  - Gitlab user and evangelist in my current company
+  - I already imitate a lot of the processes in Gitlab in my team.
+
+- Why do you want to be a front-end engineer at Monitor
+  - Applied to monitor because of my experience in eBay's analytics solution https://miguelrincon.github.io/pages/pulsar-reporting-ui/
+  - Also, my main strength is front-end but I want to push towards the full-stack
+    - I skipped a step by getting involved in operations
+      - I am the interface to OPs in my team
+
+- What are your current responsibilities?
+  - Spend time with consultants to estimate and scope the work
+  - Directly code our front-end
+    - Customers: Porsche, VW Financial, Mercedes (references and screenshots)
+  - Review merge requests of my colleagues (both front-end and back-end)
+  - Have an overview of the architecture of the solution.
+
+- Tell me of a time where you improve a team?
+  - Improved the projects via a checklist
+
+- What's you career path
+  - I would like to come back to being an individual contributor after my 2 years related to management
+  - Self-discipline
+    - Reasons
+      - I want maintain relevant technical knowledge.
+      - I want to experience IC position with fresh eyes after my role in management
+      - As associate director a big part of the role is Account Manager
+  - I want to go back the technical team management, after I see what other processes are possible
+  - I want to experience bakc-end in order to move further with my career -> so I can ensure growth of a diverse team.
+
+- Why Gitlab?
+  - I try to emulate a lot of the Gitlab processes:
+    - MR as the smallest unit of work
+    - Ask dev team to make use of WIP work in progress and push often.
+    - I implemented checklists for processes, such as the CI/CD checklist: I am always involved in the CI conversations in my current company.
+  - Remote
+  - Open-source & Relentless transparency
+
+Stack
+  - already familiar with Webpack, SASS, JS, eslint,
+  - must learn more about Vue and Vuex (store + + actions + mutations) and reactive interfaces in general
+  - don't know much Ruby yet.
+
+Learning: I often spend time following a book or a course.
+
+### Questions to ask Dalia/Tim:
+
+- What's is a successful Front-end engineer?
+  - What's the day-to-day for a front-end engineer?
+
+- Work process via issues? What is the output expected?
+  - OKRs and metrics?
+    - I saw you mentioned that you had a passion for metrics. I tried to implement but they were very difficult to do.
+    - Some of my ideas were: Planned vs unplanned work time to measure quality.
+    - MRs per week .... per iteration
+
+- Teams vs global components approach.
+  - I see the team is trying to refactor more elements into gitlab-ui
+
+- Is there a path of growth for Front-end to Back-end or full-stack?
+  - There is a Ruby/Rails hard requirement
+
+- Do you work directly with the Front-end engineers? Or Clement in charge of the management conversations?
+  - I ask because of possible timezone matching
+
+### Old questions to Interviewer
 
 - Team setup
 - Mobility to other countries?
