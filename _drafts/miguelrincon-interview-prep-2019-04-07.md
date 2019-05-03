@@ -53,73 +53,11 @@ Unfortunately eBay moved on for that project, but it is still around in the orig
 
 ## Screening calls questions
 
-**Example questions include:**
-
-### Why are you looking for a new position?
-
-Several reasons:
-1. My role is not making so much sense anymore, and my company has changed it needs. When I joined in 2017 there was an explosion of tools front-end market so joined my current job as front-end architect, to help team use/learn/drop tools. This is not the case anymore, and most the company, and the community is settles in terms of tools needed.
-2. The way for me to move move forward in the company is to move to a full-time manager position, I understand this is not my career path at the moment and I want to keep growing my skills.
-3. In order for me to keep growing and need to join a bigger team, where I am not just a mentor, but also a student of others. I am constantly learning, I am using books and online courses to stay updated, but this can only go so far.
-
-### Why did you apply with GitLab?
-
-- I have known Gitlab's product since I joined my current company about 2 years ago, I got into a CI/CD implementation right after I started and Gitlab has always helped me.
-- Since then, I spent a lot of time reading about the companies values and vision and I aligned to with them. And even used many of the ideas on how to setup my own projects at the company.
-- I completely connect with a few of the values: I am very comfortable in diverse environments, my friends and colleagues come from all over the world.
-- As regards to remote work, I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me.
-- I got married recently and so I want to have more mobility to travel with my partner.
-- The most fun I ever had was working on an open source project during my time a eBay and I would like to do it again.
-
-### What are you looking for in your next position?
-
-Role:
-- I want to have the experience of managing myself at every step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others.
-- I think there is a critical window of opportunity for me to continue on a technical path... It is time for me to go back in the technical field... as I want to continue on this track before skills begin rotting.
-- I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
-
-Company-wide
-- I want to work in a company that has a clear mission... and a mission that is different from "advertising", which is something most big tech companies do.
-
-### Why did you join and leave your last three positions?
-
-- MCON Group, eBay, Altima
-
-- I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breadth over depth matches my interests.
-
-- I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited. China changes quickly.
-
-### What is your experience with X? (for each of the skills listed in the position description)
-
-- AngularJS
-- Vue
-- WeChat mini program framework
-
-So, my main experience in front-end frameworks has been with AngularJS, this is how I built Pulsar UI, the project I built with eBay. Previously I had worked with Backbone JS, which was the way got into building using Web Frameworks.
-
-Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use VueJS becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
-
-More recently, I lead the development of WeChat mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages.
-
-### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
-
-- I am currently located in Shanghai, and I am have mid terms plans to relocate. In fact, I am looking for positions open in Amsterdam.
-
-### Do you require visa sponsorship or a work permit to work for GitLab?
-
-- I most probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
-- It depends on my setup, and I can do the research needed for this.
-
-### What is the notice period you would need if you were hired?
-
-- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2 additional weeks of onboarding.
-
 ### What are your compensation expectations?
 
 - Frontend Engineer | Intermediate | Amsterdam | $67,096 - $70,383 (58,631 EUR - 61,503 EUR)
 - Frontend Engineer | Intermediate | China | $44,100 - $46,261 (303,342 CNY - 318,206 CNY)
 - Frontend Engineer* | Intermediate | Market?? | $51,429.38 USD (345,000 CNY)
-
 
 ## Questions to Screening Interviewer
 
@@ -154,7 +92,6 @@ Code Challenge - you have 10 minutes to build a linked list, pair program.
 
 # Further Screening-Style Calls
 
-
 Other notes:
 - MRs as smallest unit of work
 - Minimum viable change
@@ -165,8 +102,6 @@ Other notes:
 - https://about.gitlab.com/handbook/questions/ fill out the questionnaire??
 - https://docs.gitlab.com/ce/development/fe_guide/ FE Guide
 - https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/
-
-- 
 
 
 ### STAR questions and simple technical or skills-related questions
@@ -182,7 +117,7 @@ Projects to mention:
 - VWFS Online: Remote work and diversity, convince them that another setup with possible. Innovative project for an old style company.
 - Non-work: HSK
 
-1. **Tell me about a time you had a conflict at work.** There was a disagreement with one of my designer colleagues, we had friction because her designs were not web friendly, she was designing the websites with a fixed frame and couldn't understand responsive methods. I had to undwerstand that design can be quite personal. My solution was to spend time with her and explain to her the technicalities behind responsive design, I also worked with her to create a kitchen sink or framework for the project we were working on, so the layout design was mostly left on the hands of the development team with her guidance and feedback.
+1. **Tell me about a time you had a conflict at work.** There was a disagreement with one of my designer colleagues, we had friction because her designs were not web friendly, she was designing the websites with a fixed frame and couldn't understand responsive methods. I had to understand that design can be quite personal. My solution was to spend time with her and explain to her the technicalities behind responsive design, I also worked with her to create a kitchen sink or framework for the project we were working on, so the layout design was mostly left on the hands of the development team with her guidance and feedback.
 
 2. **Can you describe a stressful situation and how you handled it?** For PEC we work in an online booking system, recently some of the bookings dissapeared and we could not find out why. Client keep calling to ask as their operations were stopped during the days that appeared booked. Initially I wanted to find the root cause, but after a few hours I decided to patch the system to increase the booking amounts, so the operations could continue. I think is sometimes important to take 5 minutes and stop to try and think clearly... and solve the problem next morning.
 
@@ -190,23 +125,17 @@ Projects to mention:
 
 4. **Tell me about a time when you performed well under enormous pressure.** Well recently our Mini Program had to be released and my front-end collague had to leave for home. I had to finish the project by myself, and finish a lot the unfinished tasks without him. I was fortunately able to deliver on time, in part thanks to him agreeing to explain a few things durign his time off.
 
-5. **Give me an example of a goal you met.** STAR Model Answer: I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
+5. **Give me an example of a goal you met.** I think one of the goals is to convince a new potential customer to go with us. We had spent several round of meetings with them, and then during one meeting I decided to go into the technical side... the client really connected with me. We stopped the scripted presentation and then we just went into the code of the project, he was extremely responsive and since then we were able to work together.
 
-6. **Give me an example of a goal you couldn't meet and how you handled it.** STAR Model Answer: I hired a TPM as colleague and had really high expectations from him. However, no matter how hard I tried I was not able to sell him on my vision the team: I had a lot of ideas about automation and dockerizing a lot of our systems. Unfortunately I had too many team frictions and disagreements with him. I discussed with my manager and we decided he was not a fit for the role, unfrotunately I had to ask him to leave.
+6. **Give me an example of a goal you couldn't meet and how you handled it.** I hired a TPM as colleague and had really high expectations from him. However, no matter how hard I tried I was not able to sell him on my vision the team: I had a lot of ideas about automation and dockerizing a lot of our systems. Unfortunately I had too many team frictions and disagreements with him. I discussed with my manager and we decided he was not a fit for the role, unfrotunately I had to ask him to leave.
 
-7.  **Tell me about a time when you had to placate an unsatisfied client.** STAR Model Answer: I happened to end building the internal website of our company, and the feedback from one of the partners was that the website was literally "shit". Initially I wanted him to submit bug reports... but this was not working I decided I would have a call with him to try to figure out what was wrong, and in the end, although the issues seemed major to him, they were easy to fix. The key was to do the meeting with him to sort out the issues, actually I was writing them during the meeting so he understood our process.
+7.  **Tell me about a time when you had to placate an unsatisfied client.** I happened to end building the internal website of our company, and the feedback from one of the partners was that the website was literally "shit". Initially I wanted him to submit bug reports... but this was not working I decided I would have a call with him to try to figure out what was wrong, and in the end, although the issues seemed major to him, they were easy to fix. The key was to do the meeting with him to sort out the issues, actually I was writing them during the meeting so he understood our process.
 
 8.  **Have you ever had a disagreement with an immediate supervisor?** / **Describe a decision you made that wasn't popular and how you handled implementing it.**  When I started in eBay I had a difficult time adjusting to the new team. I saw the state of the UI and I knew I could produce something better... But this would mean, basically a re-write of the project, my architect of the team refused to listen to this proposal. So I decided, show and don't tell: I asked for permission to work on a PoC and spent a few days on it. He was so impressed with the concepts that he allowed me to rewrite the project gradually and we finished extremely fast with a more readable and extensible code.
 
 9.  **Give an example of how you set goals.** Non-work example: Many of my goals are learning goals. I decided I wanted to improve my Chinese level, so instead of setting a goal like, "learn more", I signed up to the official exam. I studied a lot, during lunch, and in the mornings... and I passed! I had to set measurable example.
 
-10. **Describe a decision you made that wasn't popular and how you handled implementing it.** Once, I inherited a group of employees when their supervisor relocated to another city. They had been allowed to cover each other’s shifts without management approval. I didn’t like the inconsistencies, where certain people were being given more opportunities than others. I introduced a policy where I had my assistant approve all staffing changes, to make sure that everyone who wanted extra hours and was available at certain times could be utilized.
-
-11. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
-
-What do you expect to achieve in your first month at GitLab?
-
-What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
+10. **Give an example of how you worked on a remote team.** / **Share an example of how you were able to motivate employees or co-workers.**  I worked with the VW Financial Services team for avout a year, to build their new online platform. they were very reluctant to have remote team member, so we convinced them to give it a try with me and my colleague. I worked with them everyday and they saw the level of contribution I could give, in advice and resources was worth to have me there.
 
 What were you most satisfied with in your recent/current position?
 
@@ -214,33 +143,13 @@ Gitlab values: CREDIT
 - Collaboration
 - Results
 - Efficiency
-- Diversity
+- Diversity (built in!)
 - Iteration
 - Transparency
 
-Diversity built-in
+---------------------------------------------------------------------------------------------------------
 
-Results - OKR
-
-SMART answers
-
-Moving from team manager to IC/member -> leadership can come naturally from skills I obtain
-
-AIESEC
-
-### Essay
-
-Answers:
-
-- Why do you want join Gitlab
-  - Gitlab user and evangelist in my current company
-  - I already imitate a lot of the processes in Gitlab in my team.
-
-- Why do you want to be a front-end engineer at Monitor
-  - Applied to monitor because of my experience in eBay's analytics solution https://miguelrincon.github.io/pages/pulsar-reporting-ui/
-  - Also, my main strength is front-end but I want to push towards the full-stack
-    - I skipped a step by getting involved in operations
-      - I am the interface to OPs in my team
+### What's your current role?
 
 - What are your current responsibilities?
   - Spend time with consultants to estimate and scope the work
@@ -252,7 +161,54 @@ Answers:
 - Tell me of a time where you improve a team?
   - Improved the projects via a checklist
 
-- What's you career path
+### Why are you looking for a new position?
+
+Several reasons:
+1. My role is not making so much sense anymore, and my company has changed it needs. When I joined in 2017 there was an explosion of tools front-end market so joined my current job as front-end architect, to help team use/learn/drop tools. This is not the case anymore, and most the company, and the community is settles in terms of tools needed.
+2. The way for me to move move forward in the company is to move to a full-time manager position, I understand this is not my career path at the moment and I want to keep growing my skills.
+3. In order for me to keep growing and need to join a bigger team, where I am not just a mentor, but also a student of others. I am constantly learning, I am using books and online courses to stay updated, but this can only go so far.
+
+### Why did you apply with GitLab?
+
+- Why do you want join Gitlab
+  - Already Gitlab user
+  - Gitlab user and evangelist in my current company
+  - I got into a CI/CD implementation right after I started and Gitlab has always helped me.
+  - I already imitate a lot of the processes in Gitlab in my team.
+
+- **Processes** I try to emulate a lot of the Gitlab processes:
+  - MR as the smallest unit of work
+  - Ask dev team to make use of WIP work in progress and push often.
+  - I implemented checklists for processes, such as the CI/CD checklist: I am always involved in the CI 
+- **Values** I completely connect with a few of the values: I am very comfortable in diverse environments, my friends and colleagues come from all over the world.
+- **Remote** Already used to it -> I already manage most of tasks remotely with my colleagues in Europe, it is a very natural step for me.
+- **Mobility** I got married recently and so I want to have more mobility to travel with my partner.
+- **Open source & Transparency** The most fun I ever had was working on an open source project during my time a eBay and I would like to do it again.
+
+### What do you expect to achieve in your first month at GitLab?
+
+There are always lots of opportunities in a product like monitor:
+
+- I can help configure queries, creating dashboards
+- Also, I think auto DevOps -> or gitlab-ci templates are interesting.
+
+### What can we change in GitLab as an organization to make it better?
+
+- Documentation of the EE vs. CE is bit confusing
+- Merging online -> if I have a fork I want to pull from upstream
+- Interview Codepen
+
+### What are you looking for in your next position?
+
+**Role**
+- Experience **managing myself** at every step of my daily work -> even when I was a manager I sometimes lost motivation/drive to people in my team were discouraged. I want to build myself so I can later build others.
+- I think there is a critical window of opportunity for me to continue on a technical path... It is time for me to go back in the technical field... as I want to continue on this track before skills begin rotting.
+- I also want to expand my set of skills -> I want to participate in full stack (back-end) development.
+
+**Company-wide**
+- I want to work in a company that has a clear mission... and a mission that is different from "advertising", which is something most big tech companies do.
+
+### What's you career path
   - I would like to come back to being an individual contributor after my 2 years related to management
   - Self-discipline
     - Reasons
@@ -260,24 +216,59 @@ Answers:
       - I want to experience IC position with fresh eyes after my role in management
       - As associate director a big part of the role is Account Manager
   - I want to go back the technical team management, after I see what other processes are possible
-  - I want to experience bakc-end in order to move further with my career -> so I can ensure growth of a diverse team.
+  - I want to experience back-end in order to move further with my career -> so I can ensure growth of a diverse team.
 
-- Why Gitlab?
-  - I try to emulate a lot of the Gitlab processes:
-    - MR as the smallest unit of work
-    - Ask dev team to make use of WIP work in progress and push often.
-    - I implemented checklists for processes, such as the CI/CD checklist: I am always involved in the CI conversations in my current company.
-  - Remote
-  - Open-source & Relentless transparency
+### Why do you want to be a front-end engineer at Monitor
+  - Applied to monitor because of my experience in eBay's analytics solution https://miguelrincon.github.io/pages/pulsar-reporting-ui/
+  - Also, my main strength is front-end but I want to push towards the full-stack
+    - I skipped a step by getting involved in operations
+      - I am the interface to OPs in my team
 
-Stack
-  - already familiar with Webpack, SASS, JS, eslint,
-  - must learn more about Vue and Vuex (store + + actions + mutations) and reactive interfaces in general
-  - don't know much Ruby yet.
+### Why did you join and leave your last three positions?
 
-Learning: I often spend time following a book or a course.
+- MCON Group, eBay, Altima
 
-### Questions to ask Dalia/Tim:
+- I think my big motivator has always been learning: when I am not learning I get stuck. Gitlab's approach of breadth over depth matches my interests.
+
+- I think the exception here was eBay, when eBay stopped the Pulsar Product, I discussed with my manager and we both agreed that my role in front-end was not anymore suited. China changes quickly.
+
+### What is your experience with X? (for each of the skills listed in the position description)
+
+- AngularJS
+- Vue
+- WeChat mini program framework
+
+So, my main experience in front-end frameworks has been with AngularJS, this is how I built Pulsar UI, the project I built with eBay. Previously I had worked with Backbone JS, which was the way got into building using Web Frameworks.
+
+Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use VueJS becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
+
+More recently, I lead the development of WeChat mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages.
+
+### What is you experience with our stack
+  - Already familiar with Webpack, SASS, JS, eslint,
+  - Must learn more about Vue and Vuex (store + + actions + mutations) and reactive interfaces in general
+  - Don't know much Ruby yet -> setup of rvm
+
+-> **Learning**: I often spend time following a book or a course.
+
+
+### What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
+
+- I am currently located in Shanghai, and I am have mid terms plans to relocate. In fact, I am looking for positions open in Amsterdam.
+
+### Do you require visa sponsorship or a work permit to work for GitLab?
+
+- I most probably do, however if the company doesn't have a legal entity here, it is possible for another company to hire as a third party. Additionally, in a few months I should be able to stay in China under a spouse visa.
+- It depends on my setup, and I can do the research needed for this.
+
+### What is the notice period you would need if you were hired?
+
+- 1 month minimum according to my contract. As far as I know, doing the procedures could take about 1-2 additional weeks of onboarding.
+
+---------------------------------------------------------------------------------------------------------
+
+
+## Questions to ask Dalia/Tim:
 
 - What's is a successful Front-end engineer?
   - What's the day-to-day for a front-end engineer?
@@ -296,6 +287,8 @@ Learning: I often spend time following a book or a course.
 
 - Do you work directly with the Front-end engineers? Or Clement in charge of the management conversations?
   - I ask because of possible timezone matching
+
+- What are the next steps?
 
 ### Old questions to Interviewer
 
