@@ -1,5 +1,6 @@
 ---
 layout: page
+page-title: Front-end Developer's Interview Kit
 title: Miguel's Interview Kit
 ---
 

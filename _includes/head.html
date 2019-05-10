@@ -3,7 +3,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>{% if page.use-site-title %}{{site.author.name}} {{site.title-separator}} {{site.description}}{% elsif page.title %}{{page.title}} {{site.title-separator}} {{site.title}}{% else %}{{site.author.name}} {{site.title-separator}} {{site.description}}{% endif %}</title>
+  <title>
+    {% if page.use-site-title %}
+      {{site.author.name}} {{site.title-separator}} {{site.description}}
+    {% elsif page.page-title %}
+      {{page.page-title}} {{site.title-separator}} {{site.title}}
+    {% elsif page.title %}
+      {{page.title}} {{site.title-separator}} {{site.title}}
+    {% else %}
+      {{site.author.name}} {{site.title-separator}} {{site.description}}
+    {% endif %}
+  </title>
 
   <meta name="author" content="{{ site.author.name }}" />
 

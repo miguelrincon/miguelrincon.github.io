@@ -1,5 +1,6 @@
 ---
 layout: page
+page-title: Pulsar UI Reporting, AngularJS project
 title: Pulsar Reporting
 share-img: "/img/pages/reporting-ui-home.png"
 ---
