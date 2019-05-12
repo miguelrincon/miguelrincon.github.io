@@ -5,11 +5,11 @@ title: Agile development inside a Waterfall
 subtitle: An Agile project example working in a waterfall environment
 ---
 
-I have worked for about a year for one of the key customers of our Shanghai branch, and even though there have been difficult periods, I consider it a success story of Agile development.
+I have worked for about a year for one of the key customers of our Shanghai branch, I consider it a success story of Agile development.
 
-Much like a sturdy dandelion, our project is a successful Agile project in an environment that is not friendly to iterative development.
+Like a sturdy dandelion, our project is a successful Agile project in an environment that is not friendly to iterative development.
 
-Also, much like our dandelion, our project cannot be compared to one of the other projects with more resources or which exist in a more "product-oriented" environment, in which time-and-materials billing is the norm. This is typically present in startups and internal teams... however, our users are satisfied, and our customer respects us and keeps working with us.
+Also, much like our dandelion, our project cannot be compared to one of the other projects with more resources or which exist in a more "product-oriented" environment, in which time-and-materials billing is the norm. However, our users and team members are satisfied, and our customer respects us and keeps working with us.
 
 ## The challenge
 
@@ -17,7 +17,7 @@ We have a Party A vs. Party B relationship with our client, we play by their rul
 
 Our customer is not interested in software technicalities, and more importantly, is not interested in understanding continuous delivery, or even best practices for gradual improvements. *And I don't blame them!* According to their internal rules, any large expenditures in IT must be approved by their purchasing department, a department that is even less interested in the internals of the project.
 
-They **must** view the project as a typical waterfall, with a fixed deadline and little interest in "useless" intermediate releases.
+They **must** view the project as a typical waterfall, with a well defined scope, deadline and cost. Intermediate releases or feedback loops are nice to have.
 
 So, our business model and relationship with the customer doesn't allow for us to easily charge how our customer will work (they are a large corporation), all of this means that we must:
 
@@ -31,15 +31,17 @@ We have had a long collaboration with the customer, which allows us to keep a pr
 
 Over the years, we found that breaking projects into pieces worked, even at the purchasing level.
 
-### Make a minimum viable... project?
+### Minimum viable... project?
 
-We often spend time with the customer, understanding their pain points and ideas for the upcoming project. We collaborate closely with them in drafting a plan on what the future projects are like... we know Agile so we know that **a project can be many projects**.
+We often spend time with the customer, understanding their pain points and ideas for the upcoming needs. We collaborate closely with them in drafting a plan on what the future needs are. Our key is that we know Agile so we know that **a project can be split in several projects**.
 
-Even before the bidding process starts, we are able to split our project into in phases, each with their own cycle of delivery and plan (sounds like agile?). Certainly, we don't get to have a billed project as small a single iteration, but we do get close. For a typical iteration of 2 weeks, we typically have a "project" of typically 4-8 iterations (4 months).
+Even before the bidding process starts, we are able to conceive our project as in phases, each with their own cycle of delivery and plan (much like agile). Certainly, we don't get to have a billed project as small a single iteration, but we do get close. Internally, we use an iteration of 2 weeks, and we typically sign a "project" of 4-8 iterations (2-4 months).
 
-If we identify that the project is larger than that, we often advise to split it, or at least create different work packages for each component of the application which can be invoiced separately.
+If we identify that the upcoming project is larger than that, we often advise to split it, or at least create different work packages for each component of the application which can be invoiced separately.
 
 ## Tactics
+
+Once the project is split, we use more usual Agile process inspired in Scrum.
 
 ### Our Team
 
@@ -53,7 +55,7 @@ Our team consists of 5 people with relatively well-defined roles:
 
 #### Iterations setup
 
-We use Scrum as a base, with iterations of 2 weeks, we organize our work so that each iteration we can make a full delivery and go-live.
+We use Scrum with iterations/sprints of 2 weeks, we organize our work so that in each iteration we can make a full delivery and go-live.
 
 This is an example of how our active iterations look as Gitlab Milestones:
 
@@ -70,12 +72,12 @@ This is the typical timeline of our iterations:
 | 2nd Thurdsay or Friday | Deploy to production, sometimes this deployment is delayed to next Monday if we consider it a "risky" one.
 {:style="width:100%;"}
 
-The release time is always a topic of dicussion, however, we typically finish our delivery on Thurday's and deploy.
+The exact release time is always a topic of discussion, however, we typically finish our delivery on Thurday's and deploy... I don't see a need to have an exact schedule we must follow at all costs.
 
 Some additional activities which are planned ad-hoc include:
 
 - Meeting with the customer to discuss upcoming deliveries and timelines, usually only part of the team attends.
-- Meeting between me and the business analysist to have a first idea of size of tasks, and initial spec before a Backlog refinement.
+- Meeting between me and the business analyst to have a first idea of size of tasks, and initial spec before a Backlog refinement.
 
 **Some game rules of our iterations**
 
@@ -84,7 +86,7 @@ Some additional activities which are planned ad-hoc include:
 
 ### Our issue management
 
-Our project management tool is Gitlab. This was not a calculated choice, but the result of having it already available as a code repository, and slowly adopted becuase it was easier to draft our issues and improvements directly there.
+Our project management tool is Gitlab. This was not a calculated choice, but the result of having it already available as a code repository, and slowly adopted because it was easier to draft our issues and improvements directly there.
 
 I don't think the Gitlab issue tracker is the true reason for the success of the Agile setup, but it does help to reduce some of the fraction of tool switching and quick backlog refinement and issue tracking that lives in the same place as our repository.
 
@@ -94,14 +96,14 @@ Our tasks move from one "Milestone" to the next:
 
 1. **Pending:** Tasks that have not been confirmed or specified.
 2. **Backlog:** Tasks that should be done, at a future date.
-3. **Sprint N:** Current sprint, about to be executred.
-4. **Sprint N+1:** Postponed for next sprint, becuase time was not enough.
+3. **Sprint N:** Current sprint, about to be executed.
+4. **Sprint N+1:** Postponed for next sprint, because time was not enough.
 
 The tasks typically make it in to iterations according to priority:
 
 ![Issues Priority](/img/posts/agile/issues-priority.png){:style="box-shadow: 0px 0px 25px grey;"}
 
-And inside the curent iteration (Milestone) as so:
+And inside the current iteration (Milestone) as so:
 
 1. **Open:** Tasks that have not been confirmed or specified.
 2. **Development:** Task has been pick up by someone on the team.
@@ -115,16 +117,16 @@ And inside the curent iteration (Milestone) as so:
 Additionally we use tags to classify issues by other criteria:
 
 **User Reported**: Whether or not this issue has been reported by users in por production environment, this normally means it requires extra attention.
-**Estimation**: Whether or not this issue requires addtional research and estimation before being added to the Backlog.
+**Estimation**: Whether or not this issue requires additional research and estimation before being added to the Backlog.
 **Project Number**: Project Number which relates to cost tracking and invoicing.
 
 #### Environments and our code
 
 We use long-lived 2 branches: `master` and `development` and features branches to create Merge Requests (Pull Requests in Github).
 
-Our rules dictate the there must be frequent merges from `development` to `master`, we call those "release merges" but they only mean this is code that is considered ready for release. Those branches have an impact when and how our code is devliered to each environment.
+Our rules dictate the there must be frequent merges from `development` to `master`, we call those "release merges" but they only mean this is code that is considered ready for release. Those branches have an impact when and how our code is delivered to each environment.
 
-We use 4 environments (in additional to each team member local), each with a particular responsability:
+We use 4 environments (in additional to each team member local), each with a particular responsibility:
 
 **DEV Environment**: All code that is merged to `development` is immediately deployed to this environment. And every time there is a release to `development` a new "SNAPSHOT" git tag is created.
 
