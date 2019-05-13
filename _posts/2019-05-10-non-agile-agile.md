@@ -3,6 +3,7 @@ layout: post
 page-title: Agile software development with a corporation
 title: Agile development in a Waterfall
 subtitle: An Agile project that works in a corporate environment
+share-img: "/img/posts/agile/iterations.png"
 ---
 
 I have worked for about a year for one of the key customers of our Shanghai branch, I consider it a success story of Agile development.
