@@ -1,15 +1,11 @@
 ---
 layout: post
 page-title: Agile software development with a corporation
-title: Agile development inside a Waterfall
-subtitle: An Agile project example working in a waterfall environment
+title: Agile development in a Waterfall
+subtitle: An Agile project that works in a corporate environment
 ---
 
 I have worked for about a year for one of the key customers of our Shanghai branch, I consider it a success story of Agile development.
-
-Like a sturdy dandelion, our project is a successful Agile project in an environment that is not friendly to iterative development.
-
-Also, much like our dandelion, our project cannot be compared to one of the other projects with more resources or which exist in a more "product-oriented" environment, in which time-and-materials billing is the norm. However, our users and team members are satisfied, and our customer respects us and keeps working with us.
 
 ## The challenge
 
@@ -140,7 +136,11 @@ Our STAGE environment connects to production systems (most important of all is t
 
 > Note on hotfixes: sometime they are unavoidable, in this case we create a Merge Request directly to master.
 
-## Learning
+## Learning & conclusions
+
+Like a sturdy dandelion, our project is a successful Agile project in an environment that is not friendly to iterative development.
+
+Also, much like our dandelion, our project cannot be compared to one of the other projects with more resources or which exist in a more "product-oriented" environment, in which time-and-materials billing is the norm. However, our users and team members are satisfied, and our customer respects us and keeps working with us.
 
 ### Agile's foundation is automated testing
 
