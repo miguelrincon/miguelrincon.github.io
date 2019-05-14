@@ -21,13 +21,10 @@ description: "Software Engineer | Full-stack Developer in Shanghai, China"
 navbar-links:
   Posts: "posts"
   Resources:
-    - Reading: "pages/software-engineering-books/"
+    - Pulsar UI: "pages/pulsar-reporting-ui/"
     - Interview Kit: "pages/miguels-interview-kit/"
     - CI/CD Checklist: "pages/ci-cd-checklist/"
-  Demos:
-    - Pulsar UI: "pages/pulsar-reporting-ui/"
-    - Pollution Chart: "pages/pollution-chart/index.html"
-    - Catalog M: "http://ec2-3-84-208-127.compute-1.amazonaws.com/"
+    - Reading: "pages/software-engineering-books/"
   Find Me:
     - LinkedIn: "https://www.linkedin.com/in/miguelrincon/"
     - Github: "https://github.com/miguelrincon/"
