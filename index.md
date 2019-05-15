@@ -35,7 +35,7 @@ Listing in a somewhat particular order:
 
 Education as engineers should be ongoing, I continue to study in my spare time:
 
-- I completed Udacity's [Full-stack developer nanodegree](http://localhost:4000/2019-01-20-fullstack-developer-nanodegree/) to build a Python application from the ground up.
+- I completed Udacity's [Full-stack developer nanodegree](/2019-01-20-fullstack-developer-nanodegree/) to build a Python application from the ground up.
 - Experimented with VueJS & ECharts to show the [pollution levels in Shanghai](/pages/pollution-chart/index.html).
 - See other [online courses I am enrolled in](https://www.udemy.com/user/miguel-rincon-4/).
 
