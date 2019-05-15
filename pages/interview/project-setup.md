@@ -4,7 +4,6 @@ page-title: Software Projects Interview Questions
 title: Software Projects Interview Questions
 ---
 
-
 Use these reference questions to evaluate a candidate's understanding of Software projects and setup, these are aimed a technical project manager, but "pure coders" should understand how and why their work is organized in a certain way as well.
 
 Answers are open-ended and there is often no single perfect answer.
