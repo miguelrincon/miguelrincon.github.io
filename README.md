@@ -7,6 +7,12 @@ Built using:
 
 ## Note to self
 
+Setup
+```
+$ gem install bundler
+$ bundle install
+```
+
 Run it:
 ```
 $ bundle exec jekyll serve

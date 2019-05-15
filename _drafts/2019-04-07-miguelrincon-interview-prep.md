@@ -257,6 +257,27 @@ More recently, I lead the development of WeChat mini application, and most of it
 
 -> **Learning method**: I often spend time following a book or a course.
 
+## Vue notes
+
+- vue:
+  - app: new Vue({})
+  - components (export default)
+    - html/script/style/ together
+      - v-bind
+      - v-for
+      - @click="$emit('event-name', eventData)"
+      - v-on
+      - v-model
+    - script:
+      - props: key-value pair with the html properties
+      - data(): function returns the state
+      - methods{}: obj with methods of the component
+      - created(): hook
+  - template directive
+  - state
+    - vuex state management
+  - vuejs devtools
+  - unit testing: Vue.nextTick
 
 ---------------------------------------------------------------------------------------------------------
 
