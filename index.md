@@ -4,7 +4,7 @@ title: Hola, I am Miguel.
 use-site-title: true
 ---
 
-*Full-stack developer and software team leader in Shanghai, China.*
+*Full-stack developer and software team lead in Shanghai, China.*
 
 ### Engineer
 
@@ -16,7 +16,7 @@ I have full-stack expertise as well, other languages I use are Python, Java, and
 
 ### Best Practices Advocate
 
-I drive best practices implementation, with [Agile](/2019-05-10-non-agile-agile/) and SCRUM, manual (and automated) code reviews, pushing TDD, integration and end-to-end tests. I have a DevOps mindset and always have [Continous Delivery](/pages/ci-cd-checklist/) as an objective.
+I drive best practices implementation, with [Agile](/2019-05-10-non-agile-agile/) and SCRUM, manual (and automated) code reviews, pushing TDD, integration and end-to-end tests. I have a DevOps mindset and always have [Continuous Delivery](/pages/ci-cd-checklist/) as an objective.
 
 I lead Agile project teams, implement and improve CI/CD pipelines in software projects in which I take part. I also coach and help team members be more effective.
 
@@ -31,7 +31,7 @@ I have led teams, I have **hired, coached and mentored** my team, I have worked 
 | Did Miguel...                          | cool, show me!
 | -------------------------------------: |--
 | ...hire and lead engineers?            | Yes, and he wrote an [interview kit](/pages/miguels-interview-kit/) to compile lessons learned.
-| ...work as a major contributor to an open-source project?     | eBay's real-time reporting and analytics tool: [Pulsar UI](/pages/pulsar-reporting-ui/).
+| ...contribute substantially to an open-source project?     | eBay's real-time reporting and analytics tool: [Pulsar UI](/pages/pulsar-reporting-ui/).
 | ...get AWS certified?                  | [Certified Solutions Architect - Associate](/2018-03-06-amazon-certified/)
 | ...work with cool people?              | He has had some great colleagues... like Toni, [product manager](https://tonischmidt.me/) and Hernán, [BI expert](https://www.linkedin.com/in/hernan-leon-38275aa5/)
 {:style="width:100%;"}
