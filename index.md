@@ -8,7 +8,7 @@ Full-stack developer and software team leader in Shanghai, China.
 
 ### My work
 
-My work as a software engineer as has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
+My work as a software engineer has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
 
 I have worked in Agile Project management, Digital Marketing, Automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management. I champion Continuous Delivery ([CI/CD](/pages/ci-cd-checklist/)) in all projects in which I take part.
 
