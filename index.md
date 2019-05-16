@@ -31,7 +31,7 @@ I have led teams, I have **hired, coached and mentored** my team, I have worked 
 | Did Miguel...                          | cool, show me!
 | -------------------------------------: |--
 | ...hire and lead engineers?            | Yes, and he wrote an [interview kit](/pages/miguels-interview-kit/) to compile lessons learned.
-| ...work a major contributor to an open-source project?     | eBay's real-time reporting and analytics tool: [Pulsar UI](/pages/pulsar-reporting-ui/).
+| ...work as a major contributor to an open-source project?     | eBay's real-time reporting and analytics tool: [Pulsar UI](/pages/pulsar-reporting-ui/).
 | ...get AWS certified?                  | [Certified Solutions Architect - Associate](/2018-03-06-amazon-certified/)
 | ...work with cool people?              | He has had some great colleagues... like Toni, [product manager](https://tonischmidt.me/) and Hernán, [BI expert](https://www.linkedin.com/in/hernan-leon-38275aa5/)
 {:style="width:100%;"}
