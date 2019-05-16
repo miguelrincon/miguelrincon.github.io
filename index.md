@@ -12,7 +12,7 @@ I build and architect client-side web applications.
 
 JavaScript is my best programming language, with 7+ years of experience, and I have created over 6 large projects using [JS frameworks](/2018-02-15-frontend-frameworks-comparison/). I use HTML 5, SASS+CSS, NodeJS and Git daily. I automate my tests with Jest, Jasmine, Selenium, and Protractor.
 
-I have full-stack expertise as well, other languages I use are Python, Java, and PHP (more than Drupal CMS projects).
+I have full-stack expertise as well, other languages I use are Python, Java, and PHP (more than 10 Drupal CMS projects).
 
 ### Best Practices Advocate
 
