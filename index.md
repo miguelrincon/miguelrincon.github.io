@@ -4,42 +4,47 @@ title: Hola, I am Miguel.
 use-site-title: true
 ---
 
-Full-stack developer and software team leader in Shanghai, China.
+*Full-stack developer and software team leader in Shanghai, China.*
 
-### My work
+### Engineer
 
-My work as a software engineer has focused on [Front-End](/2018-02-15-frontend-frameworks-comparison/) web development *and* I have [Full Stack Development](/2019-01-20-fullstack-developer-nanodegree/) expertise as well.
+I build and architect client-side web applications.
 
-I have worked in Agile Project management, Digital Marketing, Automation & CI, [DevOps in AWS](/2018-03-06-amazon-certified/), application architecture, and more recently, team management. I champion Continuous Delivery ([CI/CD](/pages/ci-cd-checklist/)) in all projects in which I take part.
+JavaScript is my best programming language, with 7+ years of experience, and I have created over 6 large projects using [JS frameworks](/2018-02-15-frontend-frameworks-comparison/). I use HTML 5, SASS+CSS, NodeJS and Git daily. I automate my tests with Jest, Jasmine, Selenium, and Protractor.
+
+I have full-stack expertise as well, other languages I use are Python, Java, and PHP (more than Drupal CMS projects).
+
+### Best Practices Advocate
+
+I drive best practices implementation, with [Agile](/2019-05-10-non-agile-agile/) and SCRUM, manual (and automated) code reviews, pushing TDD, integration and end-to-end tests. I have a DevOps mindset and always have [Continous Delivery](/pages/ci-cd-checklist/) as an objective.
+
+I lead Agile project teams, implement and improve CI/CD pipelines in software projects in which I take part. I also coach and help team members be more effective.
+
+I am a Gitlab user and fanboy, I set up jobs using Jenkins and Gitlab CI, and run quality assurance initiatives.
+
+### Tech Lead
+
+I have led teams, I have **hired, coached and mentored** my team, I have worked with people from many countries, in-person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization-related topics.
+
+### FAQ!
 
 | Did Miguel...                          | cool, show me!
 | -------------------------------------: |--
-| ...hire engineers?                     | Yes, so he wrote an [interview kit](/pages/miguels-interview-kit/).
-| ...work on an open source project?     | At eBay he worked on [Pulsar UI](/pages/pulsar-reporting-ui/).
-| ...get an AWS certification?           | [Certified Solutions Architect - Assoc.](/2018-03-06-amazon-certified/)
+| ...hire and lead engineers?            | Yes, and he wrote an [interview kit](/pages/miguels-interview-kit/) to compile lessons learned.
+| ...work a major contributor to an open-source project?     | eBay's real-time reporting and analytics tool: [Pulsar UI](/pages/pulsar-reporting-ui/).
+| ...get AWS certified?                  | [Certified Solutions Architect - Associate](/2018-03-06-amazon-certified/)
+| ...work with cool people?              | He has had some great colleagues... like Toni, [product manager](https://tonischmidt.me/) and Hernán, [BI expert](https://www.linkedin.com/in/hernan-leon-38275aa5/)
 {:style="width:100%;"}
-
-### Team leader
-
-I have led teams, I have **hired** people, **coached and mentored** them, I have worked with people from many countries, in-person and remotely. I often end up involved in figuring out difficult technical issues as well as handling team and organization-related topics.
-
-This wouldn't have been possible without the help of some great colleagues... like my friend Toni, working as [product manager](https://tonischmidt.me/).
-
-### Specifics about tech?
-
-Listing in a somewhat particular order:
-
-**JavaScript**, AngularJS, NodeJS, Python, Scrum, **Agile**, Git, SASS & SCCS, Jasmine, Jenkins, Gitlab, SonarQube, Code Quality, Linux, Testing Automation, Jasmine, Protractor, SalesForce, Continuous Integration, **Continuous Delivery**, PHP, Drupal, Product Design.
 
 ### Extra credit
 
-Education as engineers should be ongoing, I continue to study in my spare time:
+Education as engineers should be ongoing, so I continue to study and improve my skills in my spare time:
 
 - I completed Udacity's [Full-stack developer nanodegree](/2019-01-20-fullstack-developer-nanodegree/) to build a Python application from the ground up.
 - Experimented with VueJS & ECharts to show the [pollution levels in Shanghai](/pages/pollution-chart/index.html).
 - See other [online courses I am enrolled in](https://www.udemy.com/user/miguel-rincon-4/).
 
-### Let's talk about something else...
+### Something else?
 
 Sure! Ask me about... Colombia, diving, China, bowling, bad guitar playing, fasting, frugality, Improv theater, cryptocurrencies and of course, computer stuff.
 
