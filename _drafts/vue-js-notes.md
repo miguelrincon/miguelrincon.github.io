@@ -143,3 +143,95 @@ new Vue({
 <input v-model="name" placeholder="edit me to save">
 {{msg}}
 ```
+
+### v-if and v-show
+
+Show and hide elements in the page.
+
+```html
+<!-- Remove or add from the DOM -->
+<p v-if="show">On</p>
+<p v-else>Off</p>
+<button @click="show = !show">Toggle<button>
+```
+
+```html
+<!-- Uses display: none; to hide element -->
+<p v-show="show">Message</p>
+<button @click="show = !show">Toggle<button>
+```
+
+### v-for
+
+Iterate over arrays, objects
+
+```html
+<!-- iterate -->
+<ul>
+  <li v-for="item in items">{{item}}</li>
+</ul>
+```
+
+Keep track of the key of element.
+
+```html
+<!-- iterate -->
+<ul>
+  <li v-for="item in items" :key="item.id">{{item.name}}</li>
+</ul>
+```
+
+Get the index of the array elem:
+
+```html
+<!-- get the index -->
+<ul>
+  <li v-for="(item, i) in items">{{i}}. {{item}}</li>
+</ul>
+```
+
+Get the value key pairs of an object:
+
+```html
+<ul>
+  <!-- index is also optional -->
+  <li v-for="(value, key, i) in object">{{i}}. {{k}}: {{value}}</li>
+</ul>
+```
+
+Iterate over a number range:
+
+```html
+<ul>
+  <li v-for="n in 10">n</li>
+</ul>
+```
+
+# Vue.JS Instance
+
+There can be several instances on the page. `var vm = new Vue({...})` allows external access of data and methods via data proxying.
+
+It is possible to interact with the Vue instance from regular JavaScript.
+
+```js
+var vm = new Vue({...})
+
+// HTML instance, a native HTML element.
+vm.$el
+
+// Data object and properties
+vm.$data
+
+// js object which stores HTML elements that are marked by the attribute ref="myKey"
+vm.$refs // vm.$refs.myKey === HTML node
+
+// Mount the HTML element selector
+vm.$mount('#app')
+```
+
+See more: [http://vuejs.org/api](http://vuejs.org/api)
+
+```
+
+```
+
