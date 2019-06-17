@@ -28,7 +28,7 @@ The framework is designed to be a "batteries included" solution, Angular makes m
 
 Anecdotally, seems to me it has less buzz in the media than other JS frameworks and tools, its "community" is mostly composed of internal users which are sponsored to support the framework.
 
-Google, apparently, didn't eat its own dog food. Their main products still use other libraries (e.g. Gmail and Google Analytics use Closure).
+Google, apparently, didn't eat its own dog food. Their main products still use other libraries (e.g. Gmail and Google Analytics use [Closure](http://googlecode.blogspot.com/2009/11/introducing-closure-tools.html)).
 
 ### React
 
