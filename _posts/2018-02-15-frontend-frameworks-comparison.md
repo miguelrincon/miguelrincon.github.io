@@ -16,7 +16,7 @@ I presented my findings to colleagues and management during a workshop. Below ar
 
 There are three main competitors for the position of "popular" JS frameworks. While there is not a single "winner", we should select one that can help us achieve our business goals in most cases.
 
-Three are obvious JS competitors: Angular, React, VueJS.
+Three are obvious JS competitors: Angular, React, Vue.js.
 
 ### Angular
 
@@ -40,7 +40,7 @@ Facebook, the original creator of React, switched from the confusing "BSD + Pate
 
 Large applications built in React might suffer from tight coupling, so solutions such as Redux and functional programming are used to solve them. This comes at the cost of using higher level of abstractions when building functionality that could be more simple.
 
-### VueJS
+### Vue.js
 
 Vue 2.0 was released in September 2016, which is the stable development version.
 
@@ -48,9 +48,9 @@ Unlike the two previous competitors, a large corporation does not fund it, and i
 
 It is fast growing as an alternative tool globally, however, since its creator, Evan You, is from China, it is also popular and relevant inside the country, which can be an advantage when finding development talent there.
 
-Additionally as an example of partnerships of VueJS, Laravel, one of the popular new PHP frameworks bundles VueJS by default. Out of the box, they use of VueJS to do part of the presentational logic.
+Additionally as an example of partnerships of Vue.js, Laravel, one of the popular new PHP frameworks bundles Vue.js by default. Out of the box, they use of Vue.js to do part of the presentational logic.
 
-VueJS does not offer a complete landscape solution for mobile apps. Unlike React and Angular, a fractioned mobile offer might represent more difficulty when creating mobile apps (there is no obvious equivalent of VueJS Native).
+Vue.js does not offer a complete landscape solution for mobile apps. Unlike React and Angular, a fractioned mobile offer might represent more difficulty when creating mobile apps (there is no obvious equivalent of Vue.js Native).
 
 As an advantage, the framework can be used to "progressively" rewrite applications built in older generation frameworks. It can be used to refactor older "jQuery mess" type of web interfaces.
 
@@ -92,7 +92,7 @@ Below a figure of the usage and intention of usage of different frameworks globa
 
 ![JS Framework Popularity contest](/img/posts/front-end-frameworks/js-popularity-contest.png)
 
-VueJS and Angular 2+ are interesting for developers's new projects, and React is established as the most-used framework. I see a similar trend in StackOverflow:
+Vue.js and Angular 2+ are interesting for developers's new projects, and React is established as the most-used framework. I see a similar trend in StackOverflow:
 
 ![JS Framework Popularity contest](/img/posts/front-end-frameworks/stackoverflow-question-tags.png)
 
@@ -100,9 +100,9 @@ I wanted to analyze China and Germany markets, and the differences are interesti
 
 ![JS Framework Popularity contest](/img/posts/front-end-frameworks/germany-china.png)
 
-While Germany has a similar result as other global trends, China, the home of VueJS, has a preference for it (note: the data for China is smaller could be more biased).
+While Germany has a similar result as other global trends, China, the home of Vue.js, has a preference for it (note: the data for China is smaller could be more biased).
 
-This means that when building new front-end applications with teams in China, VueJS might have some advantages.
+This means that when building new front-end applications with teams in China, Vue.js might have some advantages.
 
 ## Suggestions based on JS history
 
@@ -115,8 +115,8 @@ I suggest planning for a 2-4 years application life cycle, this is the history l
 So this leads me to some conclusions:
 
 - Don't build UI monoliths: different business scenarios and roles might call for different UI approaches.
-  - For example, a back-office can be built using classical MVC templates using VueJS, while the client facing application is built using SPA with Angular.
+  - For example, a back-office can be built using classical MVC templates using Vue.js, while the client facing application is built using SPA with Angular.
 - Different teams will require different tooling and life cycle. Depending on the expected lifetime of a project, you may choose a more established framework over a new one.
 - Select a good tool for your job market, China and Europe have different talent markets: hire accordingly.
 
-**Note:** At the end of discussion, we opted for a general guideline of using VueJS for most new projects. VueJS provided an attractive choice for new hires, buy-in of the China market and overall "love" of the global community.
+**Note:** At the end of discussion, we opted for a general guideline of using Vue.js for most new projects. Vue.js provided an attractive choice for new hires, buy-in of the China market and overall "love" of the global community.

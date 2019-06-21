@@ -245,7 +245,7 @@ There are always lots of opportunities in a product like monitor:
 
 So, my main experience in front-end frameworks has been with AngularJS, this is how I built Pulsar UI, the project I built with eBay. Previously I had worked with Backbone JS, which was the way got into building using Web Frameworks.
 
-Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use VueJS becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
+Later, I helped my team at MCON select the next generation framework... so this made me built many test projects to try each of the frameworks out. When we decided to use Vue.js becuase it was easier to learn and because it originated in China, which makes it easier for use to recruit for developers.
 
 More recently, I lead the development of WeChat mini application, and most of its fundamentals derive from Vue and React. It is an application that is built using components and pages.
 

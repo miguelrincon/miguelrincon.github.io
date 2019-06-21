@@ -24,6 +24,7 @@ navbar-links:
     - Pulsar UI: "pages/pulsar-reporting-ui/"
     - Interview Kit: "pages/miguels-interview-kit/"
     - CI/CD Checklist: "pages/ci-cd-checklist/"
+    - Vue Notes: "pages/vue-notes/"
     - Reading: "pages/software-engineering-books/"
   Find Me:
     - LinkedIn: "https://www.linkedin.com/in/miguelrincon/"

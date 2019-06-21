@@ -41,7 +41,7 @@ I have led teams, I have **hired, coached and mentored** my team, I have worked 
 Education as engineers should be ongoing, so I continue to study and improve my skills in my spare time:
 
 - I completed Udacity's [Full-stack developer nanodegree](/2019-01-20-fullstack-developer-nanodegree/) to build a Python application from the ground up.
-- Experimented with VueJS & ECharts to show the [pollution levels in Shanghai](/pages/pollution-chart/index.html).
+- Experimented with Vue.js & ECharts to show the [pollution levels in Shanghai](/pages/pollution-chart/index.html).
 - See other [online courses I am enrolled in](https://www.udemy.com/user/miguel-rincon-4/).
 
 ### Something else?
