@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Vue.js Notes
+share-img: "/img/pages/vue-logo.png"
 ---
 
 <img src='/img/pages/vue-logo.png'/>

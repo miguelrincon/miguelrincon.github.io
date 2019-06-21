@@ -2,6 +2,7 @@
 layout: page
 title: Vue.js Templates
 subtitle: Frequently used features
+share-img: "/img/pages/vue-logo.png"
 ---
 
 * This will become a table of contents (this text will be scraped).

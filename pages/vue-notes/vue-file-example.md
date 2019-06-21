@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Vue.js File Sample
+share-img: "/img/pages/vue-logo.png"
 ---
 
 ## Sample `.vue` file

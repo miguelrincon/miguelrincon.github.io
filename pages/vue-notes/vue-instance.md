@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Vue.js Instance and Components
+share-img: "/img/pages/vue-logo.png"
 ---
 
 ## Vue.JS Instance
