@@ -4,8 +4,7 @@ title: Vue.js Notes
 share-img: "/img/pages/vue-logo.png"
 ---
 
-<img src='/img/pages/vue-logo.png'/>
-{:class="text-center"}
+<p class="text-center"><img src='/img/pages/vue-logo.png'/></p>
 
 These are notes I took while learning Vue.js, I publish them as some other learners might find them useful.
 
