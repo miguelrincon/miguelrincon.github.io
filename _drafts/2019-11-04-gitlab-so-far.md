@@ -11,39 +11,39 @@ I think is important to check-in on my work and professional life for these past
 
 ## Day 1: Here's 300+ things for you to do
 
-Ah... the Onboarding Issue. In GitLab parlance, an *issue* is generally a task or assignment which should be done by someone in the team. On day one, the GitLab People ops team, our HR, has already prepared an **Onboarding Issue** for each team member, which contains the list of tasks required for a new arrival to onboard.
+In GitLab parlance, an *issue* is generally a task or assignment which should be done by someone in the team. On day one, the GitLab People ops team, our HR, has already prepared an **Onboarding Issue** for each team member, which contains the list of tasks required for a new arrival to onboard.
 
-The Onboarding Issue is massive, it contains **over 390 tasks** (don't believe me? here's [the template](https://gitlab.com/gitlab-com/people-group/employment/blob/master/.gitlab/issue_templates/onboarding.md)). More than a third of those are to be done by the new team member, and they include things like creating passwords for the new accounts and introducing themselves to the team on Slack.
+The Onboarding Issue is massive, it contains **over 390 tasks** (don't believe me? here's [the template](https://gitlab.com/gitlab-com/people-group/employment/blob/master/.gitlab/issue_templates/onboarding.md)). More than a third of those are for the new team member, they include things like creating passwords for the new accounts and introducing themselves to the team on Slack.
 
-However, that most daunting onboarding task of all, is aptly called "getting familiar" with the [company handbook](https://about.gitlab.com/handbook/). The handbook is thousands of pages long, is constantly changing and everyone can suggest changes to it. I think is not possible for anyone to have read it, and even if they did, it would have already changed a few hundred times by the time they were done.
+However, that most daunting onboarding task of all, is called "getting familiar" with different sections of the [company handbook](https://about.gitlab.com/handbook/). The handbook is thousands of pages long, is constantly changing and everyone can suggest changes to it. Is not possible for anyone to read it completly, and even if they did, it would have already changed a few hundred times by the time they were done.
 
-Initially, I was incredulous that a handbook this large could be used. But after so many of my questions to my new colleagues were answer by them simply sending me handbook link, I was convinced that it was the go-to text to check how the teams and the company at large works.
+Initially, I was incredulous that a handbook this large could be used effectively. But after so many of my questions were answered by a number of handbook links, I was convinced that it was the go-to text to check how the different teams and the company work.
 
-To work in my onboarding issue there was no hand-holding, no time limit and no one truly checking if I finished checked each task or not. It is the first taste of what work at GitLab is like all the time: it is fully self-driven, and it involves lots of reading.
+On one hand GitLab offers no hand-holding, each team member must drive their own onboarding process themselves, on the other hand there's no time limit (and no one checking if actually finished each task). The onboarding is the first taste of what work at GitLab is like all the time: it is self-driven and independent... and it involves a lot of reading.
 
-## Ok, onboarding done, what's next?
+## Onboarding done, let's start working on some issues
 
-In the egineering teams, each tean does things a bit differently, but the most typical path is for the engineering manager to assign a couple of issues to the new comer to try to 
+Different engineering teams organize themselves a bit differently, but typically the engineering manager distributes work in the form of issues amongst their reports. As an engineering newcomer I got assigned a couple of issues to get started.
 
-Here, the buddie's help is extremely valuable when it comes to navigitating the code, such as utils, learning some new isueful git commands which are required to keep a clean git history and it also helped me understand the flow of work from a peer perspective.
+In the Monitor team, we not only have to setup our own working GitLab environment using the GitLab development toolkit, but also setup a Kubernentes cluster, which was not easy at first, especially as I was not yet familiar with Kubernentes. As I started engineering work, I was helped by an onboarding buddy during a lot of this setup phase.
 
-In the monitor team, we mustn ot only setup our own gitlab development toolkit, but also setup a kubernentes cluster, which may not be trivial to keep stable, specially if we are actively trying to make changes on it.
+The buddy's role is also valuable to navigate the project code, getting to know where this or that utility is, and understanding how "GitLab the Product" works from the inside. And, spoiler alert, many of the answers included *more* links to the handbook. 
 
-## Getting into the work flow
+Of course, most of the initial time was spent reading the GitLab code, before writing much at all.
 
-During my 3 month tenure I got around 22 merge requests merged.
+## Getting work done
 
-### Reading code
+Ok, I was ready to put some code into GitLab, right? Wrong. Getting code into GitLab *is* hard.
 
-Reading an understanding the code base is a major ability I've had to hone to be productive at my job, there are several reasons for that.
+First of all, the code changes cannot break the CI/CD pipeline, and this pipline contains thousands of automated tests, which check many aspects of the code, coding style, unit and integration tests and some end-to-end tests. At least initally having my piplines pass consistently was difficult.
 
-### Getting reviewed by 5 team members?!
+Second, in order my changes into GitLab at least 2 other people must approve the code: one reviewer and one maintainer. This number can double if the change includes both backend and frontend, with one reveiwer and one maintainer for each. On top of this, it is recommended that a UX team member checks and approved UI changes.
 
-In order for many changes, my code must be reviewed by at least 2 people and, in some cases 5, and that is additional to all the reviews the pipeline and the Gitlab Bot will do to ensure the code is of high quality.
+So, in some cases up to 5 people should approve my code before it can get added to the project. Even the Gitlab Bot gets to voice its opinion.
 
-This is a process I found myself very imptient to do initially, 
+Initially I found myself impatiently waiting on reviews,both automated and manual, and only until recently I can have a more accurate idea of how long it will take for a change I made to get merged into the code. 
 
-The upshot of this is that there is a genuiune jolt of joy whenver I get some code approved in merged. 
+During my 3 month tenure I have gotten around 22 merge requests merged, in which each of them has been thouroughly reviewed. The upshot of this is that there is a genuiune jolt of joy whenver I get some code approved in merged. 
 
 ### Using the travel grant, a lot?!
 
@@ -100,7 +100,6 @@ I am always surprised at the effrot of many team members put into joining you fo
 ### Unlimited time-off
 
 Does working more get more things done? I would pretty much agree with this, but that no matter if you are inteh office or not, you will get the same amount of work done.
-
 
 ## Moving forward
 
