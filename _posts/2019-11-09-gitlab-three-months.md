@@ -1,7 +1,7 @@
 ---
 layout: post
 page-title: My first 3 months in GitLab
-title: 90 days of GitLab
+title: 90 days as a Gitlabber
 subtitle: Looking back at my first 3 months as Engineer @ GitLab
 ---
 
