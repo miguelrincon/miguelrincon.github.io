@@ -4,7 +4,7 @@ title: Hola, I am Miguel.
 use-site-title: true
 ---
 
-*Full-stack developer and software team lead in Shanghai, China.*
+*Full-stack developer and software team lead in Bogotá and Shanghai.*
 
 ### Engineer
 
